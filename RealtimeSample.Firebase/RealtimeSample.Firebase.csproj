@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  
+
+  <ItemGroup>
+    <Compile Include="Usuario.cs" />
+    <Compile Include="ChatMessage.cs" />
+    <Compile Include="Repository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebaseDatabase.net" Version="3.3.3" />
+  </ItemGroup>
+
+</Project>

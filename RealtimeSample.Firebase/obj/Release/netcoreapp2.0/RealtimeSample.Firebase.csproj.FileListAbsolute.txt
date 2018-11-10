@@ -1,0 +1,9 @@
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeSample.Firebase\bin\Release\netcoreapp2.0\RealtimeSample.Firebase.deps.json
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeSample.Firebase\bin\Release\netcoreapp2.0\RealtimeSample.Firebase.dll
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeSample.Firebase\bin\Release\netcoreapp2.0\RealtimeSample.Firebase.pdb
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeSample.Firebase\obj\Release\netcoreapp2.0\RealtimeSample.Firebase.csprojAssemblyReference.cache
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeSample.Firebase\obj\Release\netcoreapp2.0\RealtimeSample.Firebase.csproj.CoreCompileInputs.cache
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeSample.Firebase\obj\Release\netcoreapp2.0\RealtimeSample.Firebase.AssemblyInfoInputs.cache
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeSample.Firebase\obj\Release\netcoreapp2.0\RealtimeSample.Firebase.AssemblyInfo.cs
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeSample.Firebase\obj\Release\netcoreapp2.0\RealtimeSample.Firebase.dll
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeSample.Firebase\obj\Release\netcoreapp2.0\RealtimeSample.Firebase.pdb

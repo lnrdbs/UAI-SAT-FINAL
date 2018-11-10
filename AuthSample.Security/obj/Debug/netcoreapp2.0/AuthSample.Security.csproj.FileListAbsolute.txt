@@ -1,0 +1,108 @@
+C:\Users\Navegador\Downloads\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.deps.json
+C:\Users\Navegador\Downloads\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\Users\Navegador\Downloads\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.pdb
+C:\Users\Navegador\Downloads\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Domain.dll
+C:\Users\Navegador\Downloads\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+C:\Users\Navegador\Downloads\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csprojAssemblyReference.cache
+C:\Users\Navegador\Downloads\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Downloads\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.AssemblyInfoInputs.cache
+C:\Users\Navegador\Downloads\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.AssemblyInfo.cs
+C:\Users\Navegador\Downloads\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csproj.CopyComplete
+C:\Users\Navegador\Downloads\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\Users\Navegador\Downloads\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.pdb
+C:\temp\api2\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.deps.json
+C:\temp\api2\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\temp\api2\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.pdb
+C:\temp\api2\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Domain.dll
+C:\temp\api2\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+C:\temp\api2\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csprojAssemblyReference.cache
+C:\temp\api2\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csproj.CoreCompileInputs.cache
+C:\temp\api2\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.AssemblyInfoInputs.cache
+C:\temp\api2\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.AssemblyInfo.cs
+C:\temp\api2\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csproj.CopyComplete
+C:\temp\api2\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\temp\api2\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.pdb
+C:\Win10\api2\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.deps.json
+C:\Win10\api2\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\Win10\api2\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.pdb
+C:\Win10\api2\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Domain.dll
+C:\Win10\api2\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+C:\Win10\api2\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csprojAssemblyReference.cache
+C:\Win10\api2\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csproj.CoreCompileInputs.cache
+C:\Win10\api2\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.AssemblyInfoInputs.cache
+C:\Win10\api2\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.AssemblyInfo.cs
+C:\Win10\api2\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csproj.CopyComplete
+C:\Win10\api2\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\Win10\api2\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.pdb
+C:\Win10\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.deps.json
+C:\Win10\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\Win10\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.pdb
+C:\Win10\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Domain.dll
+C:\Win10\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+C:\Win10\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csprojAssemblyReference.cache
+C:\Win10\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csproj.CoreCompileInputs.cache
+C:\Win10\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.AssemblyInfoInputs.cache
+C:\Win10\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.AssemblyInfo.cs
+C:\Win10\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csproj.CopyComplete
+C:\Win10\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\Win10\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.pdb
+C:\Users\apichat\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.deps.json
+C:\Users\apichat\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\Users\apichat\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.pdb
+C:\Users\apichat\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Domain.dll
+C:\Users\apichat\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+C:\Users\apichat\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csprojAssemblyReference.cache
+C:\Users\apichat\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csproj.CoreCompileInputs.cache
+C:\Users\apichat\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.AssemblyInfoInputs.cache
+C:\Users\apichat\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.AssemblyInfo.cs
+C:\Users\apichat\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csproj.CopyComplete
+C:\Users\apichat\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\Users\apichat\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.pdb
+C:\Win10\20181027\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.deps.json
+C:\Win10\20181027\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\Win10\20181027\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.pdb
+C:\Win10\20181027\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Domain.dll
+C:\Win10\20181027\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+C:\Win10\20181027\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csprojAssemblyReference.cache
+C:\Win10\20181027\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csproj.CoreCompileInputs.cache
+C:\Win10\20181027\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.AssemblyInfoInputs.cache
+C:\Win10\20181027\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.AssemblyInfo.cs
+C:\Win10\20181027\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csproj.CopyComplete
+C:\Win10\20181027\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\Win10\20181027\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.pdb
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.deps.json
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.dll
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.pdb
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Domain.dll
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csprojAssemblyReference.cache
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csproj.CoreCompileInputs.cache
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.AssemblyInfoInputs.cache
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.AssemblyInfo.cs
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csproj.CopyComplete
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.dll
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.pdb
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.deps.json
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.dll
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.pdb
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Domain.dll
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csprojAssemblyReference.cache
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csproj.CoreCompileInputs.cache
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.AssemblyInfoInputs.cache
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.AssemblyInfo.cs
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csproj.CopyComplete
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.dll
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.pdb
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.deps.json
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Security.pdb
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Domain.dll
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csprojAssemblyReference.cache
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csproj.CoreCompileInputs.cache
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.AssemblyInfoInputs.cache
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.AssemblyInfo.cs
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.csproj.CopyComplete
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\obj\Debug\netcoreapp2.0\AuthSample.Security.pdb

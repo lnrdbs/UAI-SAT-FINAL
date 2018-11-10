@@ -1,0 +1,12 @@
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\bin\Release\netcoreapp2.0\AuthSample.Security.deps.json
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\bin\Release\netcoreapp2.0\AuthSample.Security.dll
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\bin\Release\netcoreapp2.0\AuthSample.Security.pdb
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\bin\Release\netcoreapp2.0\AuthSample.Domain.dll
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\bin\Release\netcoreapp2.0\AuthSample.Domain.pdb
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\obj\Release\netcoreapp2.0\AuthSample.Security.csprojAssemblyReference.cache
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\obj\Release\netcoreapp2.0\AuthSample.Security.csproj.CoreCompileInputs.cache
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\obj\Release\netcoreapp2.0\AuthSample.Security.AssemblyInfoInputs.cache
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\obj\Release\netcoreapp2.0\AuthSample.Security.AssemblyInfo.cs
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\obj\Release\netcoreapp2.0\AuthSample.Security.csproj.CopyComplete
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\obj\Release\netcoreapp2.0\AuthSample.Security.dll
+C:\Win10\20181031\chatandapi v1.1\chatandapi\AuthSample.Security\obj\Release\netcoreapp2.0\AuthSample.Security.pdb

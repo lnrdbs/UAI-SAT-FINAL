@@ -1,0 +1,254 @@
+﻿
+<!DOCTYPE html>
+<html lang="en" id="ng-app" ng-app="chat">
+
+<head>
+
+
+    <META http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Seminario de Actualización Tecnológica.</title>
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <link href="app/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="app/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="app/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="app/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <link rel="stylesheet" type="text/css" href="app/vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="app/vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="app/vendor/animsition/css/animsition.min.css">
+    <link rel="stylesheet" type="text/css" href="app/vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="app/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="app/css/util.css">
+    <link rel="stylesheet" type="text/css" href="app/css/main.css">
+    <link rel="stylesheet" type="text/css" href="app/css/index.css">
+    <link rel="icon" type="image/png" href="app/images/uai.ico" />
+</head>
+
+
+<body class="" ng-controller="mainController as vm" ng-cloak>
+
+    <div class="limiter" ng-if="!vm.isAuthenticated()">
+        <div class="container-login100">
+            <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
+                <span class="login100-form-title p-b-33">
+                    <img class="img-fluid" src="app/images/uai.png" width="200" height="180" alt="">
+                </span>
+                <div class="text-center" ng-if="!vm.isEnrol">
+                    <form ng-submit="vm.login()" novalidate>
+                        <div class="wrap-input100 validate-input" data-validate="Usuario requerido">
+                            <input class="input100" type="text" name="usuario" placeholder="Usuario" ng-model="vm.Username">
+                            <span class="focus-input100-1"></span>
+                            <span class="focus-input100-2"></span>
+                        </div>
+
+                        <div class="wrap-input100 rs1 validate-input" data-validate="Password requerida">
+                            <input class="input100" type="password" name="pass" placeholder="Password" ng-model="vm.Password">
+                            <span class="focus-input100-1"></span>
+                            <span class="focus-input100-2"></span>
+                        </div>
+                        <div class="container-login100-form-btn m-t-20">
+
+                            <button class="login100-form-btn">Ingresar</button>
+
+                        </div>
+                    </form>
+                    <div class="text-center">
+                        <div class="container-login100-form-btn m-t-20">
+
+                            <button class="login100-form-btn" ng-click="vm.EnrolClic()">Registrarse</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center" ng-if="vm.isEnrol">
+                    <form ng-submit="vm.registro()" novalidate>
+                        <div class="wrap-input100 validate-input" data-validate="Usuario requerido">
+                            <input class="input100" type="text" name="usuario" placeholder="Usuario" ng-model="vm.Username">
+                            <span class="focus-input100-1"></span>
+                            <span class="focus-input100-2"></span>
+                        </div>
+
+                        <div class="wrap-input100 rs1 validate-input" data-validate="Password requerida">
+                            <input class="input100" type="password" name="pass" placeholder="Password" ng-model="vm.Password">
+                            <span class="focus-input100-1"></span>
+                            <span class="focus-input100-2"></span>
+                        </div>
+                        <div class="container-login100-form-btn m-t-20">
+
+                            <button class="login100-form-btn">Guardar</button>
+
+                        </div>
+                    </form>
+                    <div class="text-center">
+                        <div class="container-login100-form-btn m-t-20">
+
+                            <button class="login100-form-btn" ng-click="vm.LoginClic()">Login</button>
+
+                        </div>
+                    </div>
+                </div>
+                    
+
+                </div>
+            </div>
+    </div>
+
+    <div class="limiter" ng-if="vm.isAuthenticated() && !vm.roomid">
+        <div class="container-login100">
+            <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
+                <span class="login100-form-title p-b-33">
+                    <img class="img-fluid" src="app/images/uai.png" width="200" height="180" alt="">
+                </span>
+                <div>
+                    <div class="text-center"> </div>
+                    <div class="text-center">
+                        <button class="btn btn-red" ng-click="vm.openModalConfig()">Seleccione una Sala</button>
+                    </div>
+                    <div class="height-div"> </div>
+                    <div class="text-center">
+                        <button ng-click="vm.logout()" type="button" class="btn btn-red">Logout</button>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="limiter" ng-if="vm.isAuthenticated() && vm.roomid">
+        <div class="container-login100">
+            <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
+                <span class="login100-form-title p-b-33">
+                    <img class="img-fluid" src="app/images/uai.png" width="200" height="180" alt="">
+                </span>
+                <div >
+                    <table class="table">
+                        <tr>
+                            <td class="align-top">
+                                <table>
+                                    <tr>
+                                        <td class="txt3">Sala: </td>
+                                        <td class="txt3">
+                                            <ul>
+                                                <li ng-repeat="u in vm.rooms()">{{u.id}}</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="txt3">Usuarios: </td>
+                                        <td class="txt3">
+                                            <ul>
+                                                <li ng-repeat="u in vm.room() track by $index">{{u.Alias}}</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <table class="table">
+                                    <tr>
+                                        <td class="txt3" colspan="2">Chat</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" name="name" ng-model="vm.message" class="input-borde" /></td>
+                                        <td>
+                                            <button ng-click="vm.send()" ng-disabled="!vm.message" type="button" class="btn btn-red">Enviar</button>
+                                        </td>
+                                    </tr>
+                                    <tr colspan="2">
+                                        <td class="txt3" colspan="2">{{vm.getWhoIsTyping()}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <div>
+                                                <ul class="list-group">
+                                                    <li class="list-group-item" ng-repeat="u in vm.messages.slice().reverse() track by $index" ng-if="$index < 51">{{u.time}} - {{u.User}} - {{u.Message}}</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div class="text-center">
+                                    <button ng-click="vm.disconnect()" type="button" class="btn btn-red">Dejar Sala</button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div class="text-center">
+                                    <button ng-click="vm.logout()" type="button" class="btn btn-red">Logout</button>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+            </div>
+        </div>
+    </div> 
+    <!--<script src="uaionline/js/angular-jwt.min.js"></script>-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="  https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+
+    <script src="app/js/angular-jwt.min.js"></script>
+    <script src="app/js/app.js"></script>
+    <script src="app/js/jquery.signalR-2.2.2.js"></script>
+    <div id="/signalR/hubs"></div>
+
+    <script src="app/js/app.chat.js"></script>
+    <script src="app/js/app.chat.controllers.js"></script>
+    <script src="app/js/app.chat.environment.js"></script>
+    <script src="app/js/app.chat.signalr.js"></script>
+
+
+    <script>
+        var QueryString = function () {
+            // This function is anonymous, is executed immediately and
+            // the return value is assigned to QueryString!
+            var query_string = {};
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split("=");
+                // If first entry with this name
+                if (typeof query_string[pair[0]] === "undefined") {
+                    query_string[pair[0]] = decodeURIComponent(pair[1]);
+                    // If second entry with this name
+                } else if (typeof query_string[pair[0]] === "string") {
+                    var arr = [query_string[pair[0]], decodeURIComponent(pair[1])];
+                    query_string[pair[0]] = arr;
+                    // If third or later entry with this name
+                } else {
+                    query_string[pair[0]].push(decodeURIComponent(pair[1]));
+                }
+            }
+            return query_string;
+        }();
+
+    </script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+D:\Dropbox\UAI\Maestria\Materia\Unidad 4\RealtimeChatSample #2\RealtimeChatSample\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.deps.json
+D:\Dropbox\UAI\Maestria\Materia\Unidad 4\RealtimeChatSample #2\RealtimeChatSample\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.json
+D:\Dropbox\UAI\Maestria\Materia\Unidad 4\RealtimeChatSample #2\RealtimeChatSample\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.dev.json
+D:\Dropbox\UAI\Maestria\Materia\Unidad 4\RealtimeChatSample #2\RealtimeChatSample\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
+D:\Dropbox\UAI\Maestria\Materia\Unidad 4\RealtimeChatSample #2\RealtimeChatSample\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb
+D:\Dropbox\UAI\Maestria\Materia\Unidad 4\RealtimeChatSample #2\RealtimeChatSample\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csprojAssemblyReference.cache
+D:\Dropbox\UAI\Maestria\Materia\Unidad 4\RealtimeChatSample #2\RealtimeChatSample\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csproj.CoreCompileInputs.cache
+D:\Dropbox\UAI\Maestria\Materia\Unidad 4\RealtimeChatSample #2\RealtimeChatSample\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfoInputs.cache
+D:\Dropbox\UAI\Maestria\Materia\Unidad 4\RealtimeChatSample #2\RealtimeChatSample\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfo.cs
+D:\Dropbox\UAI\Maestria\Materia\Unidad 4\RealtimeChatSample #2\RealtimeChatSample\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
+D:\Dropbox\UAI\Maestria\Materia\Unidad 4\RealtimeChatSample #2\RealtimeChatSample\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb
+D:\Dropbox\UAI\Maestria\Materia\Proyectos en GIT\chat v2\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.deps.json
+D:\Dropbox\UAI\Maestria\Materia\Proyectos en GIT\chat v2\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.json
+D:\Dropbox\UAI\Maestria\Materia\Proyectos en GIT\chat v2\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.dev.json
+D:\Dropbox\UAI\Maestria\Materia\Proyectos en GIT\chat v2\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
+D:\Dropbox\UAI\Maestria\Materia\Proyectos en GIT\chat v2\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb
+D:\Dropbox\UAI\Maestria\Materia\Proyectos en GIT\chat v2\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csprojAssemblyReference.cache
+D:\Dropbox\UAI\Maestria\Materia\Proyectos en GIT\chat v2\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csproj.CoreCompileInputs.cache
+D:\Dropbox\UAI\Maestria\Materia\Proyectos en GIT\chat v2\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfoInputs.cache
+D:\Dropbox\UAI\Maestria\Materia\Proyectos en GIT\chat v2\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfo.cs
+D:\Dropbox\UAI\Maestria\Materia\Proyectos en GIT\chat v2\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
+D:\Dropbox\UAI\Maestria\Materia\Proyectos en GIT\chat v2\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb
+C:\Win10\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.deps.json
+C:\Win10\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.json
+C:\Win10\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.dev.json
+C:\Win10\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
+C:\Win10\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb
+C:\Win10\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Application.dll
+C:\Win10\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Domain.dll
+C:\Win10\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.dll
+C:\Win10\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\Win10\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+C:\Win10\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Application.pdb
+C:\Win10\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Security.pdb
+C:\Win10\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+C:\Win10\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+C:\Win10\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.pdb
+C:\Win10\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csprojAssemblyReference.cache
+C:\Win10\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csproj.CoreCompileInputs.cache
+C:\Win10\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfoInputs.cache
+C:\Win10\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfo.cs
+C:\Win10\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csproj.CopyComplete
+C:\Win10\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
+C:\Win10\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csprojAssemblyReference.cache
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csproj.CoreCompileInputs.cache
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfoInputs.cache
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfo.cs
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.deps.json
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.json
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.dev.json
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Application.dll
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Domain.dll
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.dll
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Application.pdb
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Security.pdb
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.pdb
+C:\Users\apichat\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csproj.CopyComplete
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.deps.json
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.json
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.dev.json
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Application.dll
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Domain.dll
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.dll
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Application.pdb
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Security.pdb
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.pdb
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csprojAssemblyReference.cache
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csproj.CoreCompileInputs.cache
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfoInputs.cache
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfo.cs
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csproj.CopyComplete
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
+C:\Win10\20181027\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.deps.json
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.json
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.dev.json
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Application.dll
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Domain.dll
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.dll
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Security.dll
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Application.pdb
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Security.pdb
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.pdb
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csprojAssemblyReference.cache
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csproj.CoreCompileInputs.cache
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfoInputs.cache
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfo.cs
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csproj.CopyComplete
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.deps.json
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.json
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.dev.json
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Application.dll
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Domain.dll
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.dll
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Security.dll
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Application.pdb
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Security.pdb
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.pdb
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csprojAssemblyReference.cache
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csproj.CoreCompileInputs.cache
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfoInputs.cache
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfo.cs
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csproj.CopyComplete
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.deps.json
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.json
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.dev.json
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Application.dll
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Domain.dll
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.dll
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Application.pdb
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Security.pdb
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.pdb
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csprojAssemblyReference.cache
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csproj.CoreCompileInputs.cache
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfoInputs.cache
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfo.cs
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csproj.CopyComplete
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb

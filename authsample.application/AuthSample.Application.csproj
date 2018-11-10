@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AuthSample.Domain\AuthSample.Domain.csproj" />
+    <ProjectReference Include="..\AuthSample.MongoDBProvider\AuthSample.MongoDBProvider.csproj" />
+    <ProjectReference Include="..\AuthSample.Security\AuthSample.Security.csproj" />
+    <ProjectReference Include="..\RealtimeSample.Firebase\RealtimeSample.Firebase.csproj" />
+  </ItemGroup>
+
+</Project>

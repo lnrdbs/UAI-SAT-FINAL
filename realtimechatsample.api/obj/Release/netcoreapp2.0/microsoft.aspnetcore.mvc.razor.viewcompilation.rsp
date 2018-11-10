@@ -1,0 +1,5 @@
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=RealtimeChatSample.Api
+--content-root=C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api
+--file=

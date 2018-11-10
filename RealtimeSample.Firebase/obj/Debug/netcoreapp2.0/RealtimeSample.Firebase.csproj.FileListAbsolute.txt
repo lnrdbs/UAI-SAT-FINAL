@@ -1,0 +1,63 @@
+C:\Win10\Unidad IV\realtimechatsample #1\realtimesample\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.deps.json
+C:\Win10\Unidad IV\realtimechatsample #1\realtimesample\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+C:\Win10\Unidad IV\realtimechatsample #1\realtimesample\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+C:\Win10\Unidad IV\realtimechatsample #1\realtimesample\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.csprojAssemblyReference.cache
+C:\Win10\Unidad IV\realtimechatsample #1\realtimesample\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.csproj.CoreCompileInputs.cache
+C:\Win10\Unidad IV\realtimechatsample #1\realtimesample\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.AssemblyInfoInputs.cache
+C:\Win10\Unidad IV\realtimechatsample #1\realtimesample\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.AssemblyInfo.cs
+C:\Win10\Unidad IV\realtimechatsample #1\realtimesample\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+C:\Win10\Unidad IV\realtimechatsample #1\realtimesample\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+C:\Win10\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.csprojAssemblyReference.cache
+C:\Win10\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.csproj.CoreCompileInputs.cache
+C:\Win10\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.AssemblyInfoInputs.cache
+C:\Win10\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.AssemblyInfo.cs
+C:\Win10\chatandapi\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.deps.json
+C:\Win10\chatandapi\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+C:\Win10\chatandapi\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+C:\Win10\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+C:\Win10\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+C:\Users\apichat\chatandapi\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.deps.json
+C:\Users\apichat\chatandapi\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+C:\Users\apichat\chatandapi\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+C:\Users\apichat\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.csproj.CoreCompileInputs.cache
+C:\Users\apichat\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.AssemblyInfoInputs.cache
+C:\Users\apichat\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.AssemblyInfo.cs
+C:\Users\apichat\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+C:\Users\apichat\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+C:\Users\apichat\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.csprojAssemblyReference.cache
+C:\Win10\20181027\chatandapi\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.deps.json
+C:\Win10\20181027\chatandapi\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+C:\Win10\20181027\chatandapi\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+C:\Win10\20181027\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.csprojAssemblyReference.cache
+C:\Win10\20181027\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.csproj.CoreCompileInputs.cache
+C:\Win10\20181027\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.AssemblyInfoInputs.cache
+C:\Win10\20181027\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.AssemblyInfo.cs
+C:\Win10\20181027\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+C:\Win10\20181027\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.deps.json
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.csprojAssemblyReference.cache
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.csproj.CoreCompileInputs.cache
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.AssemblyInfoInputs.cache
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.AssemblyInfo.cs
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+c:\Users\garbarino\Downloads\chatandapi-login-registro\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.deps.json
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.csprojAssemblyReference.cache
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.csproj.CoreCompileInputs.cache
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.AssemblyInfoInputs.cache
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.AssemblyInfo.cs
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+c:\Users\garbarino\Downloads\chatandapi v1.0\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.deps.json
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeSample.Firebase\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.csprojAssemblyReference.cache
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.csproj.CoreCompileInputs.cache
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.AssemblyInfoInputs.cache
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.AssemblyInfo.cs
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeSample.Firebase\obj\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
