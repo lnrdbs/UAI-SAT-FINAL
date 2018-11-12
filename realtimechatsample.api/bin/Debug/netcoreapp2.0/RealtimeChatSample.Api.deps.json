@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "4008928c9e65a4a606e0c5a462c1b64a0f51043c"
+    "signature": "884d7d37f69448f5d17ca6832528057c5edf2ef0"
   },
   "compilationOptions": {
     "defines": [
@@ -26,6 +26,7 @@
         "dependencies": {
           "AuthSample.Application": "1.0.0",
           "AuthSample.Security": "1.0.0",
+          "FireSharp": "1.1.0",
           "Microsoft.AspNetCore.All": "2.0.0",
           "Microsoft.AspNetCore.SignalR.Server": "0.2.0-rtm-22752",
           "Microsoft.AspNetCore.WebSockets": "2.0.1",
@@ -84,6 +85,20 @@
         },
         "compile": {
           "lib/netstandard1.1/Firebase.dll": {}
+        }
+      },
+      "FireSharp/1.1.0": {
+        "dependencies": {
+          "RestSharp": "104.4.0"
+        },
+        "runtime": {
+          "lib/net45/FireSharp.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/net45/FireSharp.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -3028,6 +3043,17 @@
           "lib/netstandard1.0/Remotion.Linq.dll": {}
         }
       },
+      "RestSharp/104.4.0": {
+        "runtime": {
+          "lib/net4/RestSharp.dll": {
+            "assemblyVersion": "104.4.0.0",
+            "fileVersion": "104.4.0.0"
+          }
+        },
+        "compile": {
+          "lib/net4/RestSharp.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "runtimeTargets": {
           "runtime/debian.8-x64/native/_._": {
@@ -4975,6 +5001,13 @@
       "path": "firebasedatabase.net/3.3.3",
       "hashPath": "firebasedatabase.net.3.3.3.nupkg.sha512"
     },
+    "FireSharp/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FRkskFsuZeaWm/qNHpydFlaUAU+g6PzIgeFZYixkyARXaSzsooDLFmOYKmkNPjQiXWflCI2cVgYCILZYrqa8Uw==",
+      "path": "firesharp/1.1.0",
+      "hashPath": "firesharp.1.1.0.nupkg.sha512"
+    },
     "Libuv/1.10.0": {
       "type": "package",
       "serviceable": true,
@@ -6171,6 +6204,13 @@
       "sha512": "sha512-IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
       "path": "remotion.linq/2.1.1",
       "hashPath": "remotion.linq.2.1.1.nupkg.sha512"
+    },
+    "RestSharp/104.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gcd5+IiTCl32GdZm906SUMzF0TBtz/8br9RP8a2Y8ZSxZHub3qLuhZDd3kHhifEzTeoS8LiX94dk/vpo7ObPbw==",
+      "path": "restsharp/104.4.0",
+      "hashPath": "restsharp.104.4.0.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",

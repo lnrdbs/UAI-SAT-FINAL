@@ -105,3 +105,15 @@ C:\Win10\20181031\chatandapi v1.1\chatandapi\authsample.mongodbprovider\obj\Debu
 C:\Win10\20181031\chatandapi v1.1\chatandapi\authsample.mongodbprovider\obj\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.csproj.CopyComplete
 C:\Win10\20181031\chatandapi v1.1\chatandapi\authsample.mongodbprovider\obj\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.dll
 C:\Win10\20181031\chatandapi v1.1\chatandapi\authsample.mongodbprovider\obj\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.pdb
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.mongodbprovider\bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.deps.json
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.mongodbprovider\bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.dll
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.mongodbprovider\bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.pdb
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.mongodbprovider\bin\Debug\netcoreapp2.0\AuthSample.Domain.dll
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.mongodbprovider\bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.mongodbprovider\obj\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.csprojAssemblyReference.cache
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.mongodbprovider\obj\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.csproj.CoreCompileInputs.cache
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.mongodbprovider\obj\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.AssemblyInfoInputs.cache
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.mongodbprovider\obj\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.AssemblyInfo.cs
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.mongodbprovider\obj\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.csproj.CopyComplete
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.mongodbprovider\obj\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.dll
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.mongodbprovider\obj\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.pdb

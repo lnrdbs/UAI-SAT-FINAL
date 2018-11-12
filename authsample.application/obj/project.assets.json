@@ -7063,17 +7063,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\authsample.application\\AuthSample.Application.csproj",
+      "projectUniqueName": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\authsample.application\\AuthSample.Application.csproj",
       "projectName": "AuthSample.Application",
-      "projectPath": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\authsample.application\\AuthSample.Application.csproj",
+      "projectPath": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\authsample.application\\AuthSample.Application.csproj",
       "packagesPath": "C:\\Users\\MMaci\\.nuget\\packages\\",
-      "outputPath": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\authsample.application\\obj\\",
+      "outputPath": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\authsample.application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\NuGet.Config",
+        "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\NuGet.Config",
         "C:\\Users\\MMaci\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7090,17 +7090,17 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\AuthSample.Domain\\AuthSample.Domain.csproj": {
-              "projectPath": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\AuthSample.Domain\\AuthSample.Domain.csproj"
+            "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\AuthSample.Domain\\AuthSample.Domain.csproj": {
+              "projectPath": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\AuthSample.Domain\\AuthSample.Domain.csproj"
             },
-            "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\AuthSample.MongoDBProvider\\AuthSample.MongoDBProvider.csproj": {
-              "projectPath": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\AuthSample.MongoDBProvider\\AuthSample.MongoDBProvider.csproj"
+            "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\AuthSample.MongoDBProvider\\AuthSample.MongoDBProvider.csproj": {
+              "projectPath": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\AuthSample.MongoDBProvider\\AuthSample.MongoDBProvider.csproj"
             },
-            "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\AuthSample.Security\\AuthSample.Security.csproj": {
-              "projectPath": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\AuthSample.Security\\AuthSample.Security.csproj"
+            "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\AuthSample.Security\\AuthSample.Security.csproj": {
+              "projectPath": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\AuthSample.Security\\AuthSample.Security.csproj"
             },
-            "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\RealtimeSample.Firebase\\RealtimeSample.Firebase.csproj": {
-              "projectPath": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\RealtimeSample.Firebase\\RealtimeSample.Firebase.csproj"
+            "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\RealtimeSample.Firebase\\RealtimeSample.Firebase.csproj": {
+              "projectPath": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\RealtimeSample.Firebase\\RealtimeSample.Firebase.csproj"
             }
           }
         }

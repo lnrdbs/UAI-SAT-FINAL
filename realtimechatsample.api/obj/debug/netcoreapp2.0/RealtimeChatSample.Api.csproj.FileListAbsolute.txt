@@ -152,3 +152,25 @@ C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\obj\Debug\ne
 C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csproj.CopyComplete
 C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
 C:\Win10\20181031\chatandapi v1.1\chatandapi\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.deps.json
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.json
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.dev.json
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Application.dll
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Domain.dll
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.dll
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Security.dll
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Application.pdb
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Security.pdb
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.pdb
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csprojAssemblyReference.cache
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csproj.CoreCompileInputs.cache
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfoInputs.cache
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfo.cs
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csproj.CopyComplete
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll
+C:\Win10\TPFinal\UAI-SAT-FINAL\RealtimeChatSample.Api\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb

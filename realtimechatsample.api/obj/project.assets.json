@@ -43,6 +43,18 @@
           "lib/netstandard1.1/Firebase.dll": {}
         }
       },
+      "FireSharp/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "RestSharp": "104.4.0"
+        },
+        "compile": {
+          "lib/net45/FireSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FireSharp.dll": {}
+        }
+      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -2902,6 +2914,15 @@
           "lib/netstandard1.0/Remotion.Linq.dll": {}
         }
       },
+      "RestSharp/104.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net4/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net4/RestSharp.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -5239,6 +5260,16 @@
         "firebasedatabase.net.3.3.3.nupkg.sha512",
         "firebasedatabase.net.nuspec",
         "lib/netstandard1.1/Firebase.dll"
+      ]
+    },
+    "FireSharp/1.1.0": {
+      "sha512": "FRkskFsuZeaWm/qNHpydFlaUAU+g6PzIgeFZYixkyARXaSzsooDLFmOYKmkNPjQiXWflCI2cVgYCILZYrqa8Uw==",
+      "type": "package",
+      "path": "firesharp/1.1.0",
+      "files": [
+        "firesharp.1.1.0.nupkg.sha512",
+        "firesharp.nuspec",
+        "lib/net45/FireSharp.dll"
       ]
     },
     "Libuv/1.10.0": {
@@ -8325,6 +8356,29 @@
         "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.xml",
         "remotion.linq.2.1.1.nupkg.sha512",
         "remotion.linq.nuspec"
+      ]
+    },
+    "RestSharp/104.4.0": {
+      "sha512": "gcd5+IiTCl32GdZm906SUMzF0TBtz/8br9RP8a2Y8ZSxZHub3qLuhZDd3kHhifEzTeoS8LiX94dk/vpo7ObPbw==",
+      "type": "package",
+      "path": "restsharp/104.4.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net35-client/RestSharp.dll",
+        "lib/net35-client/RestSharp.xml",
+        "lib/net35/RestSharp.dll",
+        "lib/net35/RestSharp.xml",
+        "lib/net4-client/RestSharp.dll",
+        "lib/net4-client/RestSharp.xml",
+        "lib/net4/RestSharp.dll",
+        "lib/net4/RestSharp.xml",
+        "lib/sl4-wp71/RestSharp.WindowsPhone.dll",
+        "lib/sl4-wp71/RestSharp.WindowsPhone.xml",
+        "lib/sl4/RestSharp.Silverlight.dll",
+        "lib/sl4/RestSharp.Silverlight.xml",
+        "readme.txt",
+        "restsharp.104.4.0.nupkg.sha512",
+        "restsharp.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -13771,6 +13825,7 @@
     ".NETCoreApp,Version=v2.0": [
       "AuthSample.Application >= 1.0.0",
       "AuthSample.Security >= 1.0.0",
+      "FireSharp >= 1.1.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.AspNetCore.SignalR.Server >= 0.2.0-*",
       "Microsoft.AspNetCore.WebSockets >= 2.0.1",
@@ -13787,17 +13842,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\RealtimeChatSample.Api\\RealtimeChatSample.Api.csproj",
+      "projectUniqueName": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\RealtimeChatSample.Api\\RealtimeChatSample.Api.csproj",
       "projectName": "RealtimeChatSample.Api",
-      "projectPath": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\RealtimeChatSample.Api\\RealtimeChatSample.Api.csproj",
+      "projectPath": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\RealtimeChatSample.Api\\RealtimeChatSample.Api.csproj",
       "packagesPath": "C:\\Users\\MMaci\\.nuget\\packages\\",
-      "outputPath": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\RealtimeChatSample.Api\\obj\\",
+      "outputPath": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\RealtimeChatSample.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\NuGet.Config",
+        "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\NuGet.Config",
         "C:\\Users\\MMaci\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -13814,14 +13869,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\authsample.application\\AuthSample.Application.csproj": {
-              "projectPath": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\authsample.application\\AuthSample.Application.csproj"
+            "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\authsample.application\\AuthSample.Application.csproj": {
+              "projectPath": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\authsample.application\\AuthSample.Application.csproj"
             },
-            "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\AuthSample.Security\\AuthSample.Security.csproj": {
-              "projectPath": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\AuthSample.Security\\AuthSample.Security.csproj"
+            "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\AuthSample.Security\\AuthSample.Security.csproj": {
+              "projectPath": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\AuthSample.Security\\AuthSample.Security.csproj"
             },
-            "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\RealtimeSample.Firebase\\RealtimeSample.Firebase.csproj": {
-              "projectPath": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\RealtimeSample.Firebase\\RealtimeSample.Firebase.csproj"
+            "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\RealtimeSample.Firebase\\RealtimeSample.Firebase.csproj": {
+              "projectPath": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\RealtimeSample.Firebase\\RealtimeSample.Firebase.csproj"
             }
           }
         }
@@ -13835,6 +13890,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "FireSharp": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "[2.0.0, )"
@@ -13916,6 +13975,26 @@
       "warningLevel": 1,
       "message": "Microsoft.AspNetCore.SignalR.Messaging 0.2.0-rtm-22752 depende de Microsoft.Extensions.Options (>= 1.1.0-rtm-22752), pero no se encontró Microsoft.Extensions.Options 1.1.0-rtm-22752. Se resolvió una mejor coincidencia aproximada de Microsoft.Extensions.Options 1.1.0.",
       "libraryId": "Microsoft.Extensions.Options",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"FireSharp 1.1.0\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v2.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "FireSharp",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"RestSharp 104.4.0\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v2.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "RestSharp",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.0"
       ]

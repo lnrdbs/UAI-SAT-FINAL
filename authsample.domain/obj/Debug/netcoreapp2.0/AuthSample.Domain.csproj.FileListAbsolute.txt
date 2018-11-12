@@ -73,3 +73,12 @@ C:\Win10\20181031\chatandapi v1.1\chatandapi\authsample.domain\obj\Debug\netcore
 C:\Win10\20181031\chatandapi v1.1\chatandapi\authsample.domain\obj\Debug\netcoreapp2.0\AuthSample.Domain.AssemblyInfo.cs
 C:\Win10\20181031\chatandapi v1.1\chatandapi\authsample.domain\obj\Debug\netcoreapp2.0\AuthSample.Domain.dll
 C:\Win10\20181031\chatandapi v1.1\chatandapi\authsample.domain\obj\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.domain\bin\Debug\netcoreapp2.0\AuthSample.Domain.deps.json
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.domain\bin\Debug\netcoreapp2.0\AuthSample.Domain.dll
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.domain\bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.domain\obj\Debug\netcoreapp2.0\AuthSample.Domain.csprojAssemblyReference.cache
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.domain\obj\Debug\netcoreapp2.0\AuthSample.Domain.csproj.CoreCompileInputs.cache
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.domain\obj\Debug\netcoreapp2.0\AuthSample.Domain.AssemblyInfoInputs.cache
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.domain\obj\Debug\netcoreapp2.0\AuthSample.Domain.AssemblyInfo.cs
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.domain\obj\Debug\netcoreapp2.0\AuthSample.Domain.dll
+C:\Win10\TPFinal\UAI-SAT-FINAL\authsample.domain\obj\Debug\netcoreapp2.0\AuthSample.Domain.pdb

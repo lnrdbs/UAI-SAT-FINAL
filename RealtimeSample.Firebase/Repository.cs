@@ -1,6 +1,5 @@
 ﻿using Firebase.Database;
 using Firebase.Database.Query;
-
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -22,6 +21,7 @@ namespace RealtimeSample.Firebase
             
             _name = name;
 
+         
         }
     }
 
@@ -81,10 +81,7 @@ namespace RealtimeSample.Firebase
             return this.isOk;
         }
 
-        public async 
-
-
-        Task PostUsuario(string usuario, string clave)
+        public async Task PostUsuario(string usuario, string clave)
         {
             var c = new Usuario();
             c.Id = Guid.NewGuid().ToString();
@@ -93,6 +90,125 @@ namespace RealtimeSample.Firebase
             var xx = await firebase.Child("usuarios").Child(usuario).PostAsync(c);
         }
 
+
+    }
+
+    public class InmuebleRepository : Repository<Inmueble>
+    {
+        private static string tag = "inmuebles";
+        public InmuebleRepository() : base(tag)
+        {
+
+        }
+
+        public async Task Crear(Inmueble inmueble)
+        {
+            var xx = await firebase.Child(tag).PostAsync(inmueble);
+        }
+
+        public bool Modificar(Inmueble inmueble)
+        {
+            try
+            {
+                //borro
+                this.Delete(inmueble.Id.ToString());
+                //update
+                var xx = this.Crear(inmueble);
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            return true;
+        }
+
+        private async Task<bool> Delete(string id)
+        {
+            /*try
+            {
+                var xx = firebase.Child(tag).Child("/Id/" + id).DeleteAsync();
+                return false;
+            }
+            catch (Exception)
+            {
+                return false;
+            }*/
+
+            var result = await firebase.Child(tag).OnceAsync<Inmueble>();
+            foreach (var item in result)
+            {
+               if(item.Object.Id.ToString().Equals(id))
+                {
+                    await firebase
+                    .Child(tag)
+                    .Child(item?.Key)
+                    .DeleteAsync();
+                }
+            }
+
+            return true;
+        }
+
+        public async Task<IList<Inmueble>> Listar()
+        {
+            var result = await firebase.Child(tag).OnceAsync<Inmueble>();
+            IList<Inmueble> list = new List<Inmueble>();
+            foreach (var item in result)
+            {
+                list.Add(new Inmueble()
+                {
+                    Abierto = item.Object.Abierto,
+                    Barrio = item.Object.Barrio,
+                    Descripcion = item.Object.Descripcion,
+                    Id = item.Object.Id,
+                    Imagen = item.Object.Imagen,
+                    Titulo = item.Object.Titulo,
+                    Valoracion = item.Object.Valoracion
+                });
+            }
+
+            return list;
+        }
+
+        public async Task<Inmueble> Get(int id)
+        {
+            var result = await firebase.Child(tag).OnceAsync<Inmueble>();
+            Inmueble item = new Inmueble();
+
+            foreach (var obj in result)
+            {
+                if(obj.Object.Id == id)
+                {
+                    item = new Inmueble()
+                    {
+                        Abierto = obj.Object.Abierto,
+                        Barrio = obj.Object.Barrio,
+                        Descripcion = obj.Object.Descripcion,
+                        Id = obj.Object.Id,
+                        Imagen = obj.Object.Imagen,
+                        Titulo = obj.Object.Titulo,
+                        Valoracion = obj.Object.Valoracion
+                    };
+                }
+                return obj.Object;
+            }
+            return null;
+        }
+
+        public async Task<FirebaseObject<Inmueble>> GetObject(int id)
+        {
+            var result = await firebase.Child(tag).OnceAsync<Inmueble>();
+            Inmueble item = new Inmueble();
+
+            foreach (var obj in result)
+            {
+                if (obj.Object.Id == id)
+                {
+                    return obj;
+                }
+            }
+            return null;
+        }
 
     }
 

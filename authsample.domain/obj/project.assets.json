@@ -676,17 +676,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\authsample.domain\\AuthSample.Domain.csproj",
+      "projectUniqueName": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\authsample.domain\\AuthSample.Domain.csproj",
       "projectName": "AuthSample.Domain",
-      "projectPath": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\authsample.domain\\AuthSample.Domain.csproj",
+      "projectPath": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\authsample.domain\\AuthSample.Domain.csproj",
       "packagesPath": "C:\\Users\\MMaci\\.nuget\\packages\\",
-      "outputPath": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\authsample.domain\\obj\\",
+      "outputPath": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\authsample.domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\NuGet.Config",
+        "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\NuGet.Config",
         "C:\\Users\\MMaci\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

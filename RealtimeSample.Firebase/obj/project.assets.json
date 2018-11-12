@@ -3730,17 +3730,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\RealtimeSample.Firebase\\RealtimeSample.Firebase.csproj",
+      "projectUniqueName": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\RealtimeSample.Firebase\\RealtimeSample.Firebase.csproj",
       "projectName": "RealtimeSample.Firebase",
-      "projectPath": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\RealtimeSample.Firebase\\RealtimeSample.Firebase.csproj",
+      "projectPath": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\RealtimeSample.Firebase\\RealtimeSample.Firebase.csproj",
       "packagesPath": "C:\\Users\\MMaci\\.nuget\\packages\\",
-      "outputPath": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\RealtimeSample.Firebase\\obj\\",
+      "outputPath": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\RealtimeSample.Firebase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\NuGet.Config",
+        "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\NuGet.Config",
         "C:\\Users\\MMaci\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

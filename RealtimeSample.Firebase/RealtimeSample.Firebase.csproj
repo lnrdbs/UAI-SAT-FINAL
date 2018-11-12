@@ -8,6 +8,7 @@
   
 
   <ItemGroup>
+    <Compile Include="Inmueble.cs" />
     <Compile Include="Usuario.cs" />
     <Compile Include="ChatMessage.cs" />
     <Compile Include="Repository.cs" />

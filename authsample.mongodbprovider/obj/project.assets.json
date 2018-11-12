@@ -5265,17 +5265,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\authsample.mongodbprovider\\AuthSample.MongoDBProvider.csproj",
+      "projectUniqueName": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\authsample.mongodbprovider\\AuthSample.MongoDBProvider.csproj",
       "projectName": "AuthSample.MongoDBProvider",
-      "projectPath": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\authsample.mongodbprovider\\AuthSample.MongoDBProvider.csproj",
+      "projectPath": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\authsample.mongodbprovider\\AuthSample.MongoDBProvider.csproj",
       "packagesPath": "C:\\Users\\MMaci\\.nuget\\packages\\",
-      "outputPath": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\authsample.mongodbprovider\\obj\\",
+      "outputPath": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\authsample.mongodbprovider\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\NuGet.Config",
+        "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\NuGet.Config",
         "C:\\Users\\MMaci\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5292,8 +5292,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\AuthSample.Domain\\AuthSample.Domain.csproj": {
-              "projectPath": "C:\\Win10\\20181031\\chatandapi v1.1\\chatandapi\\AuthSample.Domain\\AuthSample.Domain.csproj"
+            "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\AuthSample.Domain\\AuthSample.Domain.csproj": {
+              "projectPath": "C:\\Win10\\TPFinal\\UAI-SAT-FINAL\\AuthSample.Domain\\AuthSample.Domain.csproj"
             }
           }
         }
