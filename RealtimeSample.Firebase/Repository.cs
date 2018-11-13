@@ -103,15 +103,20 @@ namespace RealtimeSample.Firebase
 
         public async Task Crear(Inmueble inmueble)
         {
-            var xx = await firebase.Child(tag).PostAsync(inmueble);
+            if (this.Get(inmueble.Id) != null)
+                throw new Exception("Registro con Id: " + inmueble.Id + " ya existe!");
+
+                var xx = await firebase.Child(tag).PostAsync(inmueble);
+
+
         }
 
-        public bool Modificar(Inmueble inmueble)
+        public async Task<bool> Modificar(Inmueble inmueble)
         {
             try
             {
                 //borro
-                this.Delete(inmueble.Id.ToString());
+                var t = await this.Delete(inmueble.Id.ToString());
                 //update
                 var xx = this.Crear(inmueble);
             }
@@ -124,15 +129,7 @@ namespace RealtimeSample.Firebase
 
         private async Task<bool> Delete(string id)
         {
-            /*try
-            {
-                var xx = firebase.Child(tag).Child("/Id/" + id).DeleteAsync();
-                return false;
-            }
-            catch (Exception)
-            {
-                return false;
-            }*/
+           
 
             var result = await firebase.Child(tag).OnceAsync<Inmueble>();
             foreach (var item in result)
@@ -254,5 +251,117 @@ namespace RealtimeSample.Firebase
 
       
     
+    }
+
+    public class ValoracionRepository : Repository<Valoracion>
+    {
+        private static string tag = "valoracion";
+        public ValoracionRepository() : base(tag)
+        {
+
+        }
+
+        public async Task Crear(Valoracion item)
+        {
+            if (this.Get(item.Id, item.Nickname) != null)
+                throw new Exception("Registro con Id: " + item.Id + " ya existe!");
+
+            var xx = await firebase.Child(tag).PostAsync(item);
+
+
+        }
+
+        public async Task<bool> Modificar(Valoracion item)
+        {
+            try
+            {
+                //borro
+                var t = await this.Delete(item.Id.ToString(), item.Nickname);
+                //update
+                var xx = this.Crear(item);
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            return true;
+        }
+
+        private async Task<bool> Delete(string id, string nickname)
+        {
+
+
+            var result = await firebase.Child(tag).OnceAsync<Valoracion>();
+            foreach (var item in result)
+            {
+                if (item.Object.Id.ToString().Equals(id) &&
+                    item.Object.Nickname.ToString().Equals(nickname))
+                {
+                    await firebase
+                    .Child(tag)
+                    .Child(item?.Key)
+                    .DeleteAsync();
+                }
+            }
+
+            return true;
+        }
+
+        public async Task<IList<Valoracion>> Listar(int id)
+        {
+            var result = await firebase.Child(tag).OnceAsync<Valoracion>();
+            IList<Valoracion> list = new List<Valoracion>();
+            foreach (var item in result)
+            {
+                if(item.Object.Id == id)
+                { 
+                    list.Add(new Valoracion()
+                    {
+                        Id = item.Object.Id,
+                        Nickname = item.Object.Nickname,
+                        Voto = item.Object.Voto
+                    });
+                }
+            }
+
+            return list;
+        }
+
+        public async Task<Valoracion> Get(int id, string nickname)
+        {
+            var result = await firebase.Child(tag).OnceAsync<Valoracion>();
+            Valoracion item = new Valoracion();
+
+            foreach (var obj in result)
+            {
+                if (obj.Object.Id == id && obj.Object.Nickname == nickname)
+                {
+                    item = new Valoracion()
+                    {
+                        Id = obj.Object.Id,
+                        Nickname = obj.Object.Nickname,
+                        Voto = obj.Object.Voto
+                    };
+                }
+                return obj.Object;
+            }
+            return null;
+        }
+
+        public async Task<FirebaseObject<Valoracion>> GetObject(int id, string nickname)
+        {
+            var result = await firebase.Child(tag).OnceAsync<Valoracion>();
+            Valoracion item = new Valoracion();
+
+            foreach (var obj in result)
+            {
+                if (obj.Object.Id == id && obj.Object.Nickname == nickname)
+                {
+                    return obj;
+                }
+            }
+            return null;
+        }
+
     }
 }
