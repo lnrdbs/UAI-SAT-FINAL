@@ -129,8 +129,7 @@ namespace RealtimeSample.Firebase
 
         private async Task<bool> Delete(string id)
         {
-           
-
+          
             var result = await firebase.Child(tag).OnceAsync<Inmueble>();
             foreach (var item in result)
             {

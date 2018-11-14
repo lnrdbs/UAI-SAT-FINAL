@@ -35,30 +35,44 @@ namespace AuthSample.Application
             return item;
         }
 
-        public async Task<Inmueble> CerrarValoracion(int id, int positivos, int negativos)
+        public async Task<bool> Modificar(Inmueble inmueble)
+        {
+            try
+            {
+                
+                var t = await this.Modificar(inmueble);
+                return t;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
+        public async Task<Inmueble> CerrarValoracion(int id)
         {
             var item = await this.repo.GetObject(id);
 
-            if (positivos == negativos)
+            if (item.Object.VotosPositivos == item.Object.VotosNegativos)
             {
 
                 item.Object.Valoracion = "Valoración[NEUTRO] ";
             }
-            if (positivos > negativos)
+            if (item.Object.VotosPositivos > item.Object.VotosNegativos)
             {
 
                 item.Object.Valoracion = "Valoración[POSIIVA] ";
             }
-            if (positivos < negativos)
+            if (item.Object.VotosPositivos < item.Object.VotosNegativos)
             {
 
                 item.Object.Valoracion = "Valoración[NEGATIVA] ";
             }
 
-            item.Object.Valoracion += "Votos Positivos: " + positivos.ToString();
-            item.Object.Valoracion += " || Negativos: " + negativos.ToString();
+            item.Object.Valoracion += "Votos Positivos: " + item.Object.VotosPositivos;
+            item.Object.Valoracion += " || Negativos: " + item.Object.VotosNegativos;
             item.Object.Abierto = "0";
-            repo.Modificar(item.Object);
+            var t = await repo.Modificar(item.Object);
             return item.Object;
         }
     }

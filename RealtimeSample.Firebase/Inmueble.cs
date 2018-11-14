@@ -11,8 +11,6 @@ namespace RealtimeSample.Firebase
         {
         }
 
-         
-
         public string Barrio { get; set; }
         public string Descripcion { get; set; }
         public int Id { get; set; }
@@ -20,5 +18,7 @@ namespace RealtimeSample.Firebase
         public string Abierto { get; set; }
         public string Imagen { get; set; }
         public string Valoracion { get; set; }
+        public int VotosPositivos { get; set; }
+        public int VotosNegativos { get; set; }
     }
 }

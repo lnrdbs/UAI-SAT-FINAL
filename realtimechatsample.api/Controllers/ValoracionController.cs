@@ -12,32 +12,30 @@ namespace AuthSample.Api.Controllers
 {
     [Authorize("Bearer")]
     [Route("api/[controller]")]
-    public class InmuebleController : Controller
+    public class ValoracionController : Controller
     {
-        InmuebleApplication _repo;
-        public InmuebleController()
+        ValoracionApplication _repo;
+        public ValoracionController()
         {
-            _repo = new InmuebleApplication();
+            _repo = new ValoracionApplication();
         }
 
 
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult Get(int id)
         {
-            return Ok(_repo.Listar());
+            return Ok(_repo.Listar(id));
         }
 
         [HttpPut]
-        public IActionResult Put([FromBody]Inmueble item)
+        public IActionResult Put(int id, int voto)
         {
+            Valoracion item = new Valoracion()
+            { Id = id,
+                Voto = voto,
+                Nickname = this.User.Claims.First(i => i.Type == "name").ToString()
+            };
                 return Ok(_repo.Crear(item));
         }
-
-        [HttpPatch]
-        public IActionResult Patch([FromBody]Inmueble item)
-        {
-            return Ok(_repo.CerrarValoracion(item.Id));
-        }
-
     }
 }
