@@ -12,6 +12,7 @@
     <Compile Include="Usuario.cs" />
     <Compile Include="ChatMessage.cs" />
     <Compile Include="Repository.cs" />
+    <Compile Include="Valoracion.cs" />
   </ItemGroup>
 
   <ItemGroup>
