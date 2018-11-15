@@ -58,6 +58,15 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
         })
     }
 
+    vm.crearInmueble = function () {
+        authService.auth(vm.Username, vm.Password).then(function (resp) {
+            authService.login(resp.data);
+
+        }, function () {
+            alert("Usuario y/o password incorrectas.");
+        })
+    }
+
     // Nuevo registro
     vm.registro = function () {
         authService.enrol(vm.Username, vm.Password).then(function (resp) {
