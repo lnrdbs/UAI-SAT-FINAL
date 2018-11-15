@@ -33,7 +33,7 @@ namespace AuthSample.Api.Controllers
             Valoracion item = new Valoracion()
             { Id = id,
                 Voto = voto,
-                Nickname = this.User.Claims.First(i => i.Type == "name").ToString()
+                Nickname = this.User.Claims.First(i => i.Type == "name").Value
             };
                 return Ok(_repo.Crear(item));
         }

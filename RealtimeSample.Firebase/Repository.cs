@@ -103,7 +103,8 @@ namespace RealtimeSample.Firebase
 
         public async Task Crear(Inmueble inmueble)
         {
-            if (this.Get(inmueble.Id) != null)
+            var a = await this.Get(inmueble.Id);
+            if (a != null)
                 throw new Exception("Registro con Id: " + inmueble.Id + " ya existe!");
 
                 var xx = await firebase.Child(tag).PostAsync(inmueble);
@@ -185,8 +186,8 @@ namespace RealtimeSample.Firebase
                         Titulo = obj.Object.Titulo,
                         Valoracion = obj.Object.Valoracion
                     };
-                }
-                return obj.Object;
+                    return item;
+                }                
             }
             return null;
         }
@@ -262,7 +263,8 @@ namespace RealtimeSample.Firebase
 
         public async Task Crear(Valoracion item)
         {
-            if (this.Get(item.Id, item.Nickname) != null)
+            var a = await this.Get(item.Id, item.Nickname);
+            if (a != null)
                 throw new Exception("Registro con Id: " + item.Id + " ya existe!");
 
             var xx = await firebase.Child(tag).PostAsync(item);
@@ -341,8 +343,8 @@ namespace RealtimeSample.Firebase
                         Nickname = obj.Object.Nickname,
                         Voto = obj.Object.Voto
                     };
+                    return item;
                 }
-                return obj.Object;
             }
             return null;
         }

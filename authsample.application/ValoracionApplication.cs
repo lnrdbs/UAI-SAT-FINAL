@@ -25,16 +25,21 @@ namespace AuthSample.Application
 
         public async Task Crear(Valoracion item)
         {
-            await repo.Crear(item);
+            
             // voy actualizando en la lista
             repoInmueble = new InmuebleRepository();
             var o = await repoInmueble.Get(item.Id);
-            if (item.Voto == 1)
-                ++o.VotosPositivos;
-            else
-                ++o.VotosNegativos;
+            if(o!=null)
+            {
+                await repo.Crear(item);
 
-            var t = await repoInmueble.Modificar(o);
+                if (item.Voto == 1)
+                    ++o.VotosPositivos;
+                else
+                    ++o.VotosNegativos;
+                var t = await repoInmueble.Modificar(o);
+            }
+            
         }
 
         public async Task<Valoracion> Get(int id, string nickname)
