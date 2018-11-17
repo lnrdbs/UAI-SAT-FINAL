@@ -7,18 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealtimeChatSample.Api", "R
 	ProjectSection(ProjectDependencies) = postProject
 		{B2B09446-AF0E-4E41-A7F4-DE9F768DE780} = {B2B09446-AF0E-4E41-A7F4-DE9F768DE780}
 		{EA92F84A-B210-460C-9173-8D432F6EDA27} = {EA92F84A-B210-460C-9173-8D432F6EDA27}
-		{AFD18D95-7357-4072-BF1E-B4D1236D35E5} = {AFD18D95-7357-4072-BF1E-B4D1236D35E5}
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthSample.Security", "AuthSample.Security\AuthSample.Security.csproj", "{A9321479-9333-4B03-8641-724EAAA7BF9D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthSample.Domain", "authsample.domain\AuthSample.Domain.csproj", "{B2B09446-AF0E-4E41-A7F4-DE9F768DE780}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthSample.MongoDBProvider", "authsample.mongodbprovider\AuthSample.MongoDBProvider.csproj", "{AFD18D95-7357-4072-BF1E-B4D1236D35E5}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthSample.Application", "authsample.application\AuthSample.Application.csproj", "{EA92F84A-B210-460C-9173-8D432F6EDA27}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealtimeSample.Firebase", "RealtimeSample.Firebase\RealtimeSample.Firebase.csproj", "{B6A6908C-0FD5-47E6-A5CE-D260EB48DBAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthSample.MongoDBProvider", "authsample.mongodbprovider\AuthSample.MongoDBProvider.csproj", "{01B22058-E06D-4581-878E-DCC1AE7E66A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,10 +37,6 @@ Global
 		{B2B09446-AF0E-4E41-A7F4-DE9F768DE780}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2B09446-AF0E-4E41-A7F4-DE9F768DE780}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2B09446-AF0E-4E41-A7F4-DE9F768DE780}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AFD18D95-7357-4072-BF1E-B4D1236D35E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AFD18D95-7357-4072-BF1E-B4D1236D35E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AFD18D95-7357-4072-BF1E-B4D1236D35E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AFD18D95-7357-4072-BF1E-B4D1236D35E5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EA92F84A-B210-460C-9173-8D432F6EDA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EA92F84A-B210-460C-9173-8D432F6EDA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA92F84A-B210-460C-9173-8D432F6EDA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -50,6 +45,10 @@ Global
 		{B6A6908C-0FD5-47E6-A5CE-D260EB48DBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6A6908C-0FD5-47E6-A5CE-D260EB48DBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6A6908C-0FD5-47E6-A5CE-D260EB48DBAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B22058-E06D-4581-878E-DCC1AE7E66A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B22058-E06D-4581-878E-DCC1AE7E66A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B22058-E06D-4581-878E-DCC1AE7E66A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B22058-E06D-4581-878E-DCC1AE7E66A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

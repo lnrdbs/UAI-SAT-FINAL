@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using AuthSample.Application;
 using Microsoft.AspNetCore.Authorization;
@@ -27,8 +28,8 @@ namespace AuthSample.Api.Controllers
             return Ok(_repo.Listar());
         }
 
-        [HttpPut]
-        public IActionResult Put([FromBody]Inmueble item)
+        [HttpPost]
+        public IActionResult Post(Inmueble item)
         {
                 return Ok(_repo.Crear(item));
         }

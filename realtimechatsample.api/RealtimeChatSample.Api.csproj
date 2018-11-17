@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.deps.json" />
+    <Content Include="bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FireSharp" Version="1.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Server" Version="0.2.0-*" />
@@ -20,6 +26,21 @@
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp2.0\AuthSample.Application.dll" />
+    <None Include="bin\Debug\netcoreapp2.0\AuthSample.Application.pdb" />
+    <None Include="bin\Debug\netcoreapp2.0\AuthSample.Domain.dll" />
+    <None Include="bin\Debug\netcoreapp2.0\AuthSample.Domain.pdb" />
+    <None Include="bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.dll" />
+    <None Include="bin\Debug\netcoreapp2.0\AuthSample.MongoDBProvider.pdb" />
+    <None Include="bin\Debug\netcoreapp2.0\AuthSample.Security.dll" />
+    <None Include="bin\Debug\netcoreapp2.0\AuthSample.Security.pdb" />
+    <None Include="bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.dll" />
+    <None Include="bin\Debug\netcoreapp2.0\RealtimeChatSample.Api.pdb" />
+    <None Include="bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.dll" />
+    <None Include="bin\Debug\netcoreapp2.0\RealtimeSample.Firebase.pdb" />
   </ItemGroup>
 
   <ItemGroup>

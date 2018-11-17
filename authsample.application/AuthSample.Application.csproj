@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AuthSample.Domain\AuthSample.Domain.csproj" />
-    <ProjectReference Include="..\AuthSample.MongoDBProvider\AuthSample.MongoDBProvider.csproj" />
+    <ProjectReference Include="..\authsample.mongodbprovider\AuthSample.MongoDBProvider.csproj" />
     <ProjectReference Include="..\AuthSample.Security\AuthSample.Security.csproj" />
     <ProjectReference Include="..\RealtimeSample.Firebase\RealtimeSample.Firebase.csproj" />
   </ItemGroup>

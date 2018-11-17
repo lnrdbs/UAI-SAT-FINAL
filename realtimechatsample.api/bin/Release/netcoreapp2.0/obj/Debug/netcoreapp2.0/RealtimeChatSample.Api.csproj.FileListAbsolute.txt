@@ -1,4 +1,0 @@
-C:\Win10\20181031\chatandapi v1.1\chatandapi\realtimechatsample.api\bin\Release\netcoreapp2.0\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csprojAssemblyReference.cache
-C:\Win10\20181031\chatandapi v1.1\chatandapi\realtimechatsample.api\bin\Release\netcoreapp2.0\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.csproj.CoreCompileInputs.cache
-C:\Win10\20181031\chatandapi v1.1\chatandapi\realtimechatsample.api\bin\Release\netcoreapp2.0\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfoInputs.cache
-C:\Win10\20181031\chatandapi v1.1\chatandapi\realtimechatsample.api\bin\Release\netcoreapp2.0\obj\Debug\netcoreapp2.0\RealtimeChatSample.Api.AssemblyInfo.cs

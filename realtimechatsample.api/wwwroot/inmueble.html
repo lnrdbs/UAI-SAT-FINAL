@@ -38,7 +38,7 @@
 
 <body class="" ng-controller="mainController as vm" ng-cloak>
 
-    <div class="limiter" ng-if="!vm.isAuthenticated()">
+    <div class="limiter" ng-if="vm.isAuthenticated()">
         <div class="container-login100">
             <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
                 <span class="login100-form-title p-b-33">
@@ -94,7 +94,7 @@
                         </div>
                         <div class="container-login100-form-btn m-t-20">
 
-                            <button class="login100-form-btn">Ingresar</button>
+                            <button class="login100-form-btn">Crear</button>
 
                         </div>
                     </form>

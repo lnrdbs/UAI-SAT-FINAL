@@ -46,6 +46,11 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
     vm.isAuthenticated = function () {
         return authService.isAuthenticated();
     }
+
+    vm.IsAdmin = function () {
+        return (vm.userid=="admin");
+    }
+    
     vm.logout = function () {
         authService.logout();
     }
@@ -59,11 +64,22 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
     }
 
     vm.crearInmueble = function () {
-        authService.auth(vm.Username, vm.Password).then(function (resp) {
-            authService.login(resp.data);
+        var Inmueble = new Object();  
+        Inmueble.Barrio = vm.Barrio;
+        Inmueble.Descripcion = vm.Descripcion;
+        Inmueble.Id = vm.Id;
+        Inmueble.Titulo = vm.Titulo;
+        Inmueble.Abierto = '1';
+        Inmueble.Imagen = vm.Imagen;
+        Inmueble.Valoracion = '';
+        Inmueble.VotosPositivos = 0;
+        Inmueble.VotosNegativos = 0;
+        
+        authService.NuevoInmueble(Inmueble).then(function (resp) {
+            alert("Registro creado con exito!!");
 
         }, function () {
-            alert("Usuario y/o password incorrectas.");
+            alert("Registro Duplicado!!");
         })
     }
 

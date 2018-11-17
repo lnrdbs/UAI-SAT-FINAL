@@ -169,8 +169,6 @@ app.factory('chatsignalr', function (connectedUsers, backendHubProxy, $rootScope
 
 app.factory('authService', function ($http, ENV, jwtHelper, $window, $location) {
 
-
-
     var $tokenStorage = $window.localStorage['token'];
     var $tokenDecodedStorage = $window.localStorage['token-decoded'];
     var token;
@@ -185,10 +183,7 @@ app.factory('authService', function ($http, ENV, jwtHelper, $window, $location) 
 
     }
 
-
-
     var getToken = function () {
-
         return token;
     }
 
@@ -262,6 +257,17 @@ app.factory('authService', function ($http, ENV, jwtHelper, $window, $location) 
 
     }
 
+    var NuevoInmueble = function (inmueble) {
+        $http.defaults.headers.post["Authorization"] = "Bearer " + $window.localStorage['token'];
+
+        return $http({
+            url: ENV.apiEndpoint + '/inmueble',
+            method: 'POST',
+            data: inmueble
+        });  
+
+        /*return $http.post(ENV.apiEndpoint + '/inmueble', inmueble);  */
+    }
 
     return {
         loadTokenFromCookies: loadTokenFromCookies,
@@ -275,6 +281,8 @@ app.factory('authService', function ($http, ENV, jwtHelper, $window, $location) 
         logout: logout,
         getUserId: getUserId,
         reset: reset,
-
+        NuevoInmueble: NuevoInmueble,
     };
+
+
 });

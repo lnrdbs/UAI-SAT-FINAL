@@ -98,34 +98,22 @@
                         </div>
                     </div>
                 </div>
-                    
-
-                </div>
             </div>
     </div>
-
-    <div class="limiter" ng-if="vm.isAuthenticated() && !vm.roomid">
+    </div>
+    <div class="limiter" ng-if="vm.isAuthenticated() && vm.IsAdmin">
         <div class="container-login100">
             <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
                 <span class="login100-form-title p-b-33">
-                    <img class="img-fluid" src="app/images/uai.png" width="200" height="180" alt="">
                 </span>
                 <div>
-                    <div class="text-center"> </div>
-                    <div class="text-center">
-                        <button class="btn btn-red" ng-click="vm.openModalConfig()">Seleccione una Sala</button>
-                    </div>
-                    <div class="height-div"> </div>
-                    <div class="text-center">
-                        <button ng-click="vm.logout()" type="button" class="btn btn-red">Logout</button>
-                    </div>
+                    <div class="text-center"> <a href="inmueble.html">Nuevo Inmueble</a></div>
                 </div>
-               
             </div>
         </div>
     </div>
 
-    <div class="limiter" ng-if="vm.isAuthenticated() && vm.roomid">
+    <div class="limiter" ng-if="vm.isAuthenticated()">
         <div class="container-login100">
             <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
                 <span class="login100-form-title p-b-33">
@@ -137,58 +125,22 @@
                             <td class="align-top">
                                 <table>
                                     <tr>
-                                        <td class="txt3">Sala: </td>
+                                       
                                         <td class="txt3">
-                                            <ul>
-                                                <li ng-repeat="u in vm.rooms()">{{u.id}}</li>
-                                            </ul>
+                                          Grilla
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="txt3">Usuarios: </td>
+                                       
                                         <td class="txt3">
-                                            <ul>
-                                                <li ng-repeat="u in vm.room() track by $index">{{u.Alias}}</li>
-                                            </ul>
+                                         Paginado
                                         </td>
                                     </tr>
                                 </table>
                             </td>
+                        </tr>
+                        <tr>
                             <td>
-                                <table class="table">
-                                    <tr>
-                                        <td class="txt3" colspan="2">Chat</td>
-                                    </tr>
-                                    <tr>
-                                        <td><input type="text" name="name" ng-model="vm.message" class="input-borde" /></td>
-                                        <td>
-                                            <button ng-click="vm.send()" ng-disabled="!vm.message" type="button" class="btn btn-red">Enviar</button>
-                                        </td>
-                                    </tr>
-                                    <tr colspan="2">
-                                        <td class="txt3" colspan="2">{{vm.getWhoIsTyping()}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="2">
-                                            <div>
-                                                <ul class="list-group">
-                                                    <li class="list-group-item" ng-repeat="u in vm.messages.slice().reverse() track by $index" ng-if="$index < 51">{{u.time}} - {{u.User}} - {{u.Message}}</li>
-                                                </ul>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <div class="text-center">
-                                    <button ng-click="vm.disconnect()" type="button" class="btn btn-red">Dejar Sala</button>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
                                 <div class="text-center">
                                     <button ng-click="vm.logout()" type="button" class="btn btn-red">Logout</button>
                                 </div>
