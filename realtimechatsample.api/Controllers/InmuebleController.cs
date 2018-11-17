@@ -28,8 +28,8 @@ namespace AuthSample.Api.Controllers
             return Ok(_repo.Listar());
         }
 
-        [HttpPost]
-        public IActionResult Post(Inmueble item)
+        [HttpPut]
+        public IActionResult Put([FromBody]Inmueble item)
         {
                 return Ok(_repo.Crear(item));
         }

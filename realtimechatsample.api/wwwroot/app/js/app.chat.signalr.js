@@ -258,12 +258,17 @@ app.factory('authService', function ($http, ENV, jwtHelper, $window, $location) 
     }
 
     var NuevoInmueble = function (inmueble) {
-        $http.defaults.headers.post["Authorization"] = "Bearer " + $window.localStorage['token'];
+       // $http.defaults.headers.post["Authorization"] = "Bearer " + $window.localStorage['token'];
 
         return $http({
             url: ENV.apiEndpoint + '/inmueble',
-            method: 'POST',
-            data: inmueble
+            dataType: 'json',
+            method: 'PUT',
+            data: inmueble,
+            headers: {
+                "Content-Type": "application/json",
+                "Authorization": "Bearer " + $window.localStorage['token'],
+            }
         });  
 
         /*return $http.post(ENV.apiEndpoint + '/inmueble', inmueble);  */
