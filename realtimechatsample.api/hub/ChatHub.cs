@@ -54,6 +54,14 @@ namespace RealtimeChatSample.Api.hub
         {
             Clients.OthersInGroup(roomName).sayWhoIsTyping(alias);
         }
+
+        public void ShowNewPublish(string roomName, string alias, string titulo, int id) {
+            Clients.All(roomName).showNewPublish(alias, titulo, id);
+        }
+
+        public void ShowPublishClosed(string roomName, string alias, string titulo, int id) {
+            Clients.All(roomName).showPublishClosed(alias, titulo, id);
+        }
     }
 
 }
