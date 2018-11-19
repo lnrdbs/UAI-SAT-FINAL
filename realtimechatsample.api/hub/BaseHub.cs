@@ -97,7 +97,7 @@ namespace RealtimeChatSample.Api.hub
 
             Clients.Group(room).JoinRoom(user);
 
-            Clients.Group(room).ReceiveMessage(new { User = "chat", Message = "Ingresó " + alias });
+            //Clients.Group(room).ReceiveMessage(new { User = "chat", Message = "Ingresó " + alias });
         }
 
         protected void DelFromRoom(string room, string alias)
@@ -108,7 +108,7 @@ namespace RealtimeChatSample.Api.hub
 
             Clients.Group(room).LeaveRoom(user);
 
-            Clients.Group(room).ReceiveMessage(new { User = ">> ", Message = alias + " Abandono la sala" });
+            //Clients.Group(room).ReceiveMessage(new { User = ">> ", Message = alias + " Abandono la sala" });
         }
 
         public void ShowMessage(string room, ChatMessage msg)

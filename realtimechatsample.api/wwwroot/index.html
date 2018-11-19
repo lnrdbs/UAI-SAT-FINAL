@@ -95,7 +95,7 @@
         </div>
     </div>
 
-    <div ng-if="vm.isAuthenticated()" class="container">
+    <div ng-if="vm.isAuthenticated()" class="container" ng-init="vm.getInmuebles()">
         <div class="row">
             <div class="col-4">
                 <span class="login100-form-title p-b-33">
@@ -105,16 +105,33 @@
             <div class="col-8 fa-align-center"><b>Trabajo Práctico Final - Universidad Abierta Interamericana.</b></div>
         </div>
         <div class="row">
-            <div class="col-9">
-                <div ng-if="vm.isAuthenticated()">
+            <div class="col-6">
+                <div>
+                    <div> Bienvenido: {{vm.getUserId()}}</a></div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div ng-if="vm.IsAdmin()">
                     <div> <a href="inmueble.html">Nuevo Inmueble</a></div>
                 </div>
             </div>
             <div class="col-3">
                 <button ng-click="vm.logout()" type="button" class="btn btn-red">Logout</button>
             </div>
-         </div> 
-        <div class="row" ng-repeat="x in vm.inmuebles">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <div>Notificaciones:</div>
+            </div>
+            <div class="col-10">
+                <div>
+                    <ul >
+                        <li ng-repeat="u in vm.messages.slice().reverse() track by $index" ng-if="$index == 0">{{u.Message}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row" ng-repeat="x in vm.inmuebles.slice().reverse() track by x.id">
             <div class="col-12">
                 <div class="row">
                     <div class="col-1">
@@ -122,7 +139,7 @@
                     </div>
                     <div class="col-8">
                         <div class="row">
-                            <div class="col-md-12">{{x.titulo}}</div>
+                            <div class="col-md-12">Publicación Nro {{x.id}} - {{x.titulo}}</div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">{{x.descripcion}}</div>
@@ -133,20 +150,23 @@
                     </div>
                 </div>
                 <div class="row" ng-if="x.abierto == '1'">
-                    <div class="col-6">
+                    <div class="col-9">
                         Que opina del Barrio?
                     </div>
-                    <div class="col-3">
-                        <img class="img-fluid" src="app/images/si.jpg" width="50" height="45" alt="">
+                    <div class="col-1">
+                        <div ng-click="vm.votar(x.id, 1)"><img class="img-fluid" src="app/images/si.jpg" width="50" height="45" alt=""> {{x.votosPositivos}} </div>
                     </div>
-                    <div class="col-3">
-                        <img class="img-fluid" src="app/images/no.jpg" width="50" height="45" alt="">
+                    <div class="col-1">
+                        <img class="img-fluid" src="app/images/no.jpg" width="50" height="45" alt="" ng-click="vm.votar(x.id, 0)"> {{x.votosNegativos}}
+                    </div>
+                    <div class="col-1" ng-if="vm.IsAdmin() && x.abierto == '1'">
+                        <img class="img-fluid" src="app/images/cierre.png" width="50" height="45" alt="" ng-click="vm.cerrarvotacion(x.id, x.titulo)">
                     </div>
                 </div>
                 <div class="row" ng-if="x.abierto == '0'">
                     <div class="col-12">
                         {{x.valoracion}}
-                    </div> 
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
@@ -154,9 +174,9 @@
                     </div>
                 </div>
             </div>
-         </div>
-         <div class="row"><div class="col-12 fa-align-center">Pie pagina </div></div>
-     </div>
+        </div>
+        <div class="row"><div class="col-12 fa-align-center">Pie pagina </div></div>
+    </div>
                 <!--<script src="uaionline/js/angular-jwt.min.js"></script>-->
 
                 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

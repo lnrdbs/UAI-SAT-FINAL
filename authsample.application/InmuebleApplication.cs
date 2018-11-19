@@ -70,7 +70,7 @@ namespace AuthSample.Application
             if (item.Object.VotosPositivos > item.Object.VotosNegativos)
             {
 
-                item.Object.Valoracion = "Valoración[POSIIVA] ";
+                item.Object.Valoracion = "Valoración[POSITIVA] ";
             }
             if (item.Object.VotosPositivos < item.Object.VotosNegativos)
             {

@@ -31,8 +31,8 @@ namespace AuthSample.Api.Controllers
         public IActionResult Put(int id, int voto)
         {
             Valoracion item = new Valoracion()
-            { Id = id,
-                Voto = voto,
+            { Id = Convert.ToInt32(id),
+                Voto = Convert.ToInt32(voto),
                 Nickname = this.User.Claims.First(i => i.Type == "name").Value
             };
                 return Ok(_repo.Crear(item));

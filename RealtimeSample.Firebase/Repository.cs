@@ -160,9 +160,12 @@ namespace RealtimeSample.Firebase
                     Id = item.Object.Id,
                     Imagen = item.Object.Imagen,
                     Titulo = item.Object.Titulo,
-                    Valoracion = item.Object.Valoracion
+                    Valoracion = item.Object.Valoracion,
+                    VotosNegativos = item.Object.VotosNegativos,
+                    VotosPositivos = item.Object.VotosPositivos
                 });
             }
+            
             return await Task.Run(() => new List<Inmueble>(list));
            
         }

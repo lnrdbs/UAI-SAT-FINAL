@@ -12,10 +12,10 @@ namespace RealtimeChatSample.Api.hub
         public void SendMessage(string msg, string room, string user)
         {
             //ENVIO UN MENSAJE
-            //var dto = new {User=user, Message = msg };
+            var dto = new {User=user, Message = msg };
             var r = new ChatRoomRepository(room, user, ShowMessage);
             r.PostMessage(msg);
-            //Clients.Group(room).ReceiveMessage(dto);
+            Clients.Group(room).ReceiveMessage(dto);
         }
 
         public void AllRooms(string p1="", string p2="")

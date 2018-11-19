@@ -51,7 +51,7 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
     }
 
     vm.IsAdmin = function () {
-        return (vm.userid=="admin");
+        return (authService.getUserId()=="admin");
     }
     
     vm.logout = function () {
@@ -60,7 +60,9 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
     vm.login = function () {
         authService.auth(vm.Username, vm.Password).then(function (resp) {
             authService.login(resp.data);
-            
+            connectedUsers.clear();
+            chatsignalr.getProxy().invoke("JoinRoom", function (x) {
+            }, 'Inmobiliaria', vm.Username);
         }, function () {
             alert("Usuario y/o password incorrectas.");
         })
@@ -80,7 +82,9 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
         
         authService.NuevoInmueble(Inmueble).then(function (resp) {
             alert("Registro creado con exito!!");
-
+            //chatsignalr.getProxy().showNewPublish('Inmobiliaria', vm.getUserId(), vm.Titulo, vm.Id)
+            chatsignalr.getProxy().sendMessage('Nueva Publicacion!!! Puede votar el Barrio: ' + vm.Barrio, 'Inmobiliaria', vm.getUserId()).done(function () {  
+            });
         }, function () {
             alert("Registro Duplicado!!");
         })
@@ -98,9 +102,11 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
     }
 
     vm.getInmuebles = function () {
-        inmuebleService.all().then(function (resp) {
-            vm.inmuebles = resp.data;
-        }, function (a) { vm.error = "unauthorized"; });
+        if (vm.isAuthenticated()) {
+            inmuebleService.all().then(function (resp) {
+                vm.inmuebles = resp.data;
+            }, function (a) { vm.error = "unauthorized"; });
+        }
     }
 
     vm.EnrolClic = function () {
@@ -183,9 +189,6 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
         return x;
     }
 
-    
-   
-
     vm.openModalConfig = function () {
         var modalInstance = $uibModal.open({
             animation: true,
@@ -221,5 +224,18 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
         });
     }
 
-    var a = vm.getInmuebles();
+    vm.votar = function (id, voto) {
+        inmuebleService.votar(id, voto).then(function (resp) {
+            
+        }, function (a) { vm.error = "unauthorized"; });
+    }
+
+    vm.cerrarvotacion = function (id, titulo) {
+        inmuebleService.cerrar(id).then(function (resp) {
+            chatsignalr.getProxy().showPublishClosed('Inmobiliaria', vm.getUserId(), titulo, id)
+            var a = vm.getInmuebles();
+        }, function (a) { vm.error = "unauthorized"; });
+    }
+
+    //var a = vm.getInmuebles();
 })

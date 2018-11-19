@@ -194,11 +194,10 @@ app.factory('authService', function ($http, ENV, jwtHelper, $window, $location) 
     }
 
     var getUserId = function () {
-        if ($window.localStorage['token-decoded'] != undefined)
-            return $window.localStorage['token-decoded'].nameidentifier;
-        return undefined;
+        return $window.localStorage["user"];
     }
     var auth = function (username, password) {
+        $window.localStorage["user"] = username;
         return $http.post(ENV.apiEndpoint + '/auth', { Username: username, Password: password });
     }
 
@@ -263,11 +262,11 @@ app.factory('authService', function ($http, ENV, jwtHelper, $window, $location) 
     }
 
     var NuevoInmueble = function (inmueble) {
-        $http.defaults.headers.post["Authorization"] = "Bearer " + $window.localStorage['token'];
+        $http.defaults.headers.put["Authorization"] = "Bearer " + $window.localStorage['token'];
 
         return $http({
             url: ENV.apiEndpoint + '/inmueble',
-            method: 'POST',
+            method: 'PUT',
             data: inmueble
         });  
 
@@ -299,6 +298,42 @@ app.factory('inmuebleService', function ($http, ENV, $window) {
         all: function () {
             $http.defaults.headers.get["Authorization"] = "Bearer " + $window.localStorage['token'];
             return $http.get(ENV.apiEndpoint + '/inmueble');
+        },
+        votar: function(idInmueble, votoInmueble){
+            $http.defaults.headers.put["Authorization"] = "Bearer " + $window.localStorage['token'];
+            //return $http.post(ENV.apiEndpoint + '/Valoracion', { id: idInmueble, voto: votoInmueble} );
+            var data = { 'id': idInmueble, 'voto': votoInmueble };
+            return $http({
+                url: ENV.apiEndpoint + '/Valoracion',
+                method: 'PUT',
+                params: data,
+                dataType: 'json',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+            });  
+        },
+        cerrar: function (idInmueble) {
+            $http.defaults.headers.post["Authorization"] = "Bearer " + $window.localStorage['token'];
+            return $http({
+                url: ENV.apiEndpoint + '/inmueble',
+                method: 'POST',
+                data: idInmueble,
+                dataType: 'json'
+                
+            });
+            //return $http.post(ENV.apiEndpoint + '/inmueble', { id: idInmueble });
+            /*return $http({
+                url: ENV.apiEndpoint + '/inmueble',
+                method: 'POST',
+                data: id,
+                dataType: 'json',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+            });*/
         },
     }
 
