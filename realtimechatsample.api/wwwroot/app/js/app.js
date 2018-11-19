@@ -9,14 +9,17 @@ var app= angular
 
 app.constant('$', window.jQuery);
 
-app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, authService, chatsignalr, connectedUsers,$rootScope) {
+app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, authService, chatsignalr, connectedUsers, $rootScope, inmuebleService) {
 
     var vm = this;
     vm.message = "";
     vm.messages = [];
+    //vm.inmuebles = {};
     vm.roomid = undefined;
     vm.isEnrol = false;
     vm.localuser = "";
+   
+
     $scope.$watch('vm.message', function () {
         if (angular.isUndefined(vm.message) == true || vm.message == "")
             return;
@@ -94,9 +97,19 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
         })
     }
 
+    vm.getInmuebles = function () {
+        inmuebleService.all().then(function (resp) {
+            vm.inmuebles = resp.data;
+        }, function (a) { vm.error = "unauthorized"; });
+    }
+
     vm.EnrolClic = function () {
         vm.isEnrol = true;
         return vm.isEnrol;
+    }
+
+    vm.Back = function () {
+        window.history.back();
     }
 
     vm.LoginClic = function () {
@@ -136,6 +149,9 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
         return x;
     }
 
+    
+   
+
     vm.openModalConfig = function () {
         var modalInstance = $uibModal.open({
             animation: true,
@@ -171,4 +187,5 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
         });
     }
 
+    var a = vm.getInmuebles();
 })

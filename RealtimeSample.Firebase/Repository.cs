@@ -163,8 +163,8 @@ namespace RealtimeSample.Firebase
                     Valoracion = item.Object.Valoracion
                 });
             }
-
-            return list;
+            return await Task.Run(() => new List<Inmueble>(list));
+           
         }
 
         public async Task<Inmueble> Get(int id)

@@ -26,6 +26,7 @@ namespace AuthSample.Api.Controllers
         public IActionResult Get()
         {
             return Ok(_repo.Listar());
+
         }
 
         [HttpPut]
@@ -34,11 +35,11 @@ namespace AuthSample.Api.Controllers
                 return Ok(_repo.Crear(item));
         }
 
-        [HttpPatch]
-        public IActionResult Patch([FromBody]Inmueble item)
+       [HttpPost]
+        public IActionResult Post([FromBody]int id)
         {
-            return Ok(_repo.CerrarValoracion(item.Id));
+            return Ok(_repo.CerrarValoracion(id));
         }
-
+        
     }
 }

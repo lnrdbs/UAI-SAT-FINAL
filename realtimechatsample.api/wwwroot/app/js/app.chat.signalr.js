@@ -254,7 +254,6 @@ app.factory('authService', function ($http, ENV, jwtHelper, $window, $location) 
                 this.logout();
             }
         }
-
     }
 
     var NuevoInmueble = function (inmueble) {
@@ -273,7 +272,7 @@ app.factory('authService', function ($http, ENV, jwtHelper, $window, $location) 
 
         /*return $http.post(ENV.apiEndpoint + '/inmueble', inmueble);  */
     }
-
+   
     return {
         loadTokenFromCookies: loadTokenFromCookies,
         auth: auth,
@@ -287,7 +286,20 @@ app.factory('authService', function ($http, ENV, jwtHelper, $window, $location) 
         getUserId: getUserId,
         reset: reset,
         NuevoInmueble: NuevoInmueble,
+        
     };
 
 
 });
+
+app.factory('inmuebleService', function ($http, ENV, $window) {
+
+    return {
+        all: function () {
+            $http.defaults.headers.get["Authorization"] = "Bearer " + $window.localStorage['token'];
+            return $http.get(ENV.apiEndpoint + '/inmueble');
+        },
+    }
+
+});
+

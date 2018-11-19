@@ -16,11 +16,20 @@ namespace AuthSample.Application
             this.repo = new InmuebleRepository();
         }
 
-        public async Task<IList<Inmueble>> Listar()
+        public IList<Inmueble> Listar()
         {
-            var result = await repo.Listar();
-
-            return result;
+            /*var result = await repo.Listar();
+            return await Task.Run(()=> new List<Inmueble>(result));*/
+            IList<Inmueble> list;
+            try
+            {
+                list = repo.Listar().Result;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return list;
         }
 
         public async Task Crear(Inmueble inmueble)
