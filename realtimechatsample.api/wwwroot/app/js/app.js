@@ -18,7 +18,7 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
     vm.roomid = undefined;
     vm.isEnrol = false;
     vm.localuser = "";
-   
+
 
     $scope.$watch('vm.message', function () {
         if (angular.isUndefined(vm.message) == true || vm.message == "")
@@ -142,7 +142,41 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
 
     $rootScope.$on("ReceiveMessage", function (evt,xx) {
         vm.messages.push(xx);
+        
     })
+
+    // #### Trabajar con la vista
+    //  Cuando se crear un nuevo inmueble
+    //  -> chatsignalr.getProxy().showNewPublish(room, alias, titulo, idPublish)
+    //  
+    //  Cuando se cierra la publicación
+    //  -> chatsignalr.getProxy().showPublishClosed(room, alias, titulo, idPublish)
+
+    // #### Este evento hay que trabajar la vista
+    $rootScope.$on("ShowNewPublish", function (evt, xx) {
+        // #### Diseñar vista
+        // --------------------------------------
+        // Marcos (alias) 
+        // Casa en pilar (titulo)
+        // ¿Que onda el barrio?
+        //  Bueno (usar id)       Malo (usar id)
+        // --------------------------------------
+        vm.messages.push(xx);
+    })
+
+    // #### Este evento hay que trabajar la vista
+    $rootScope.$on("ShowPublishClosed", function (evt, xx) {
+        // #### Diseñar vista
+        // --------------------------------------
+        // Encuesta cerrada
+        // Marcos (alias)
+        // Casa en pilar (titulo)
+        // ¿Que onda el barrio?
+        // Bueno: 20vts     Malo: 5vts  
+        // --------------------------------------
+        vm.messages.push(xx);
+    })
+
 
     vm.rooms = function () {
         var x = connectedUsers.allRooms();

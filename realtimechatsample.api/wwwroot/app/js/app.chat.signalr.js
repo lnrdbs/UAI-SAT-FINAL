@@ -111,6 +111,12 @@ app.factory('backendHubProxy', function ($, ENV, $rootScope) {
                 sendMessage: function (a, b, c) {
                     return proxy.invoke("SendMessage", a, b,c);
                 },
+                showNewPublish: function (a, b, c, d) {
+                    return proxy.invoke("ShowNewPublish", a, b, c, d);
+                },
+                showPublishClosed: function (a, b, c, d) {
+                    return proxy.invoke("ShowPublishClosed", a, b, c, d);
+                },
                 invoke: function (methodName, callback, params,p2) {
                        proxy.invoke(methodName, params,p2).done(function (result) {
                         $rootScope.$apply(function () {
@@ -257,17 +263,12 @@ app.factory('authService', function ($http, ENV, jwtHelper, $window, $location) 
     }
 
     var NuevoInmueble = function (inmueble) {
-       // $http.defaults.headers.post["Authorization"] = "Bearer " + $window.localStorage['token'];
+        $http.defaults.headers.post["Authorization"] = "Bearer " + $window.localStorage['token'];
 
         return $http({
             url: ENV.apiEndpoint + '/inmueble',
-            dataType: 'json',
-            method: 'PUT',
-            data: inmueble,
-            headers: {
-                "Content-Type": "application/json",
-                "Authorization": "Bearer " + $window.localStorage['token'],
-            }
+            method: 'POST',
+            data: inmueble
         });  
 
         /*return $http.post(ENV.apiEndpoint + '/inmueble', inmueble);  */

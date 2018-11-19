@@ -62,6 +62,14 @@ app.run(function ($rootScope, $http, chatsignalr, connectedUsers, $q) {
 
                     });
 
+                    chatsignalr.getProxy().on("ShowNewPublish", function (dto) {
+                        $rootScope.$emit("ShowNewPublish", dto);
+                    });
+
+                    chatsignalr.getProxy().on("ShowPublishClosed", function (dto) {
+                        $rootScope.$emit("ShowPublishClosed", dto);
+                    });
+
                     chatsignalr.getProxy().on('AllConnectedInRoom', function (msg) {
                        
                         msg.users.forEach(function (i) {
