@@ -50,6 +50,11 @@
                             <span class="focus-input100-1"></span>
                             <span class="focus-input100-2"></span>
                         </div>
+                        <div class="wrap-input100 rs1 validate-input">
+                            <input class="input100" type="text" name="ip" placeholder="IP(opcional)" ng-model="vm.IP" readonly>
+                            <span class="focus-input100-1"></span>
+                            <span class="focus-input100-2"></span>
+                        </div>
                         <div class="container-login100-form-btn m-t-20">
 
                             <button class="login100-form-btn">Ingresar</button>
@@ -125,106 +130,110 @@
             </div>
             <div class="col-10">
                 <div>
-                    <ul >
+                    <ul>
                         <li ng-repeat="u in vm.messages.slice().reverse() track by $index" ng-if="$index == 0">{{u.Message}}</li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="row" ng-repeat="x in vm.inmuebles.slice().reverse() track by x.id">
+        <div class="row">
             <div class="col-12">
-                <div class="row">
-                    <div class="col-1">
-                        <img class="img-fluid" src="app/images/casa.jpg" />
-                    </div>
-                    <div class="col-8">
-                        <div class="row">
-                            <div class="col-md-12">Publicación Nro {{x.id}} - {{x.titulo}}</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">{{x.descripcion}}</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">Barrio:  {{x.barrio}}</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row" ng-if="x.abierto == '1'">
-                    <div class="col-9">
-                        Que opina del Barrio?
-                    </div>
-                    <div class="col-1">
-                        <div ng-click="vm.votar(x.id, 1)"><img class="img-fluid" src="app/images/si.jpg" width="50" height="45" alt=""> {{x.votosPositivos}} </div>
-                    </div>
-                    <div class="col-1">
-                        <img class="img-fluid" src="app/images/no.jpg" width="50" height="45" alt="" ng-click="vm.votar(x.id, 0)"> {{x.votosNegativos}}
-                    </div>
-                    <div class="col-1" ng-if="vm.IsAdmin() && x.abierto == '1'">
-                        <img class="img-fluid" src="app/images/cierre.png" width="50" height="45" alt="" ng-click="vm.cerrarvotacion(x.id, x.titulo)">
-                    </div>
-                </div>
-                <div class="row" ng-if="x.abierto == '0'">
-                    <div class="col-12">
-                        {{x.valoracion}}
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <hr />
-                    </div>
-                </div>
             </div>
         </div>
+        <div class="row" ng-repeat="x in vm.inmuebles.slice().reverse() track by x.id">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-1">
+                                <img class="img-fluid" src="app/images/casa.jpg" />
+                            </div>
+                            <div class="col-8">
+                                <div class="row">
+                                    <div class="col-md-12">Publicación Nro {{x.id}} - {{x.titulo}}</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">{{x.descripcion}}</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">Barrio:  {{x.barrio}}</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" ng-if="x.abierto == '1'">
+                            <div class="col-9">
+                                Que opina del Barrio?
+                            </div>
+                            <div class="col-1">
+                                <div ng-click="vm.votar(x.id, 1)"><img class="img-fluid" src="app/images/si.jpg" width="50" height="45" alt=""> {{x.votosPositivos}} </div>
+                            </div>
+                            <div class="col-1">
+                                <img class="img-fluid" src="app/images/no.jpg" width="50" height="45" alt="" ng-click="vm.votar(x.id, 0)"> {{x.votosNegativos}}
+                            </div>
+                            <div class="col-1" ng-if="vm.IsAdmin() && x.abierto == '1'">
+                                <img class="img-fluid" src="app/images/cierre.png" width="50" height="45" alt="" ng-click="vm.cerrarvotacion(x.id, x.titulo, x.barrio)">
+                            </div>
+                        </div>
+                        <div class="row" ng-if="x.abierto == '0'">
+                            <div class="col-12">
+                                {{x.valoracion}}
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <hr />
+                            </div>
+                        </div>
+                    </div>
+                </div>
         <div class="row"><div class="col-12 fa-align-center">Pie pagina </div></div>
-    </div>
-                <!--<script src="uaionline/js/angular-jwt.min.js"></script>-->
+            </div>
+            <!--<script src="uaionline/js/angular-jwt.min.js"></script>-->
 
-                <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-                <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-                <script src="  https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
-
-
-                <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
-                <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
-
-                <script src="app/js/angular-jwt.min.js"></script>
-                <script src="app/js/app.js"></script>
-                <script src="app/js/jquery.signalR-2.2.2.js"></script>
-                <div id="/signalR/hubs"></div>
-
-                <script src="app/js/app.chat.js"></script>
-                <script src="app/js/app.chat.controllers.js"></script>
-                <script src="app/js/app.chat.environment.js"></script>
-                <script src="app/js/app.chat.signalr.js"></script>
+            <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            <script src="  https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
 
 
-                <script>
-                    var QueryString = function () {
-                        // This function is anonymous, is executed immediately and
-                        // the return value is assigned to QueryString!
-                        var query_string = {};
-                        var query = window.location.search.substring(1);
-                        var vars = query.split("&");
-                        for (var i = 0; i < vars.length; i++) {
-                            var pair = vars[i].split("=");
-                            // If first entry with this name
-                            if (typeof query_string[pair[0]] === "undefined") {
-                                query_string[pair[0]] = decodeURIComponent(pair[1]);
-                                // If second entry with this name
-                            } else if (typeof query_string[pair[0]] === "string") {
-                                var arr = [query_string[pair[0]], decodeURIComponent(pair[1])];
-                                query_string[pair[0]] = arr;
-                                // If third or later entry with this name
-                            } else {
-                                query_string[pair[0]].push(decodeURIComponent(pair[1]));
-                            }
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+
+            <script src="app/js/angular-jwt.min.js"></script>
+            <script src="app/js/app.js"></script>
+            <script src="app/js/jquery.signalR-2.2.2.js"></script>
+            <div id="/signalR/hubs"></div>
+
+            <script src="app/js/app.chat.js"></script>
+            <script src="app/js/app.chat.controllers.js"></script>
+            <script src="app/js/app.chat.environment.js"></script>
+            <script src="app/js/app.chat.signalr.js"></script>
+
+
+            <script>
+                var QueryString = function () {
+                    // This function is anonymous, is executed immediately and
+                    // the return value is assigned to QueryString!
+                    var query_string = {};
+                    var query = window.location.search.substring(1);
+                    var vars = query.split("&");
+                    for (var i = 0; i < vars.length; i++) {
+                        var pair = vars[i].split("=");
+                        // If first entry with this name
+                        if (typeof query_string[pair[0]] === "undefined") {
+                            query_string[pair[0]] = decodeURIComponent(pair[1]);
+                            // If second entry with this name
+                        } else if (typeof query_string[pair[0]] === "string") {
+                            var arr = [query_string[pair[0]], decodeURIComponent(pair[1])];
+                            query_string[pair[0]] = arr;
+                            // If third or later entry with this name
+                        } else {
+                            query_string[pair[0]].push(decodeURIComponent(pair[1]));
                         }
-                        return query_string;
-                    }();
+                    }
+                    return query_string;
+                }();
 
-                </script>
+            </script>
 
 
 

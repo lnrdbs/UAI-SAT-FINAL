@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using RealtimeSample.Firebase;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace AuthSample.Application
 {
@@ -23,13 +24,13 @@ namespace AuthSample.Application
             IList<Inmueble> list;
             try
             {
-                list = repo.Listar().Result;
+                list = repo.Listar().Result;  
             }
             catch (Exception)
             {
                 throw;
             }
-            return list;
+            return list.OrderBy(x=>x.Id).ToList();
         }
 
         public async Task Crear(Inmueble inmueble)

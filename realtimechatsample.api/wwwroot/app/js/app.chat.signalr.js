@@ -196,8 +196,11 @@ app.factory('authService', function ($http, ENV, jwtHelper, $window, $location) 
     var getUserId = function () {
         return $window.localStorage["user"];
     }
-    var auth = function (username, password) {
+    var auth = function (username, password, ip) {
         $window.localStorage["user"] = username;
+        if (ip != '')
+            $window.localStorage["ip"] = ip;
+
         return $http.post(ENV.apiEndpoint + '/auth', { Username: username, Password: password });
     }
 

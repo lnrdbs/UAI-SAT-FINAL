@@ -149,6 +149,7 @@ namespace RealtimeSample.Firebase
         public async Task<IList<Inmueble>> Listar()
         {
             var result = await firebase.Child(tag).OnceAsync<Inmueble>();
+
             IList<Inmueble> list = new List<Inmueble>();
             foreach (var item in result)
             {

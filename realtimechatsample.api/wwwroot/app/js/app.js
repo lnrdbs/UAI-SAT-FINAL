@@ -58,7 +58,7 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
         authService.logout();
     }
     vm.login = function () {
-        authService.auth(vm.Username, vm.Password).then(function (resp) {
+        authService.auth(vm.Username, vm.Password, vm.IP).then(function (resp) {
             authService.login(resp.data);
             connectedUsers.clear();
             chatsignalr.getProxy().invoke("JoinRoom", function (x) {
@@ -83,7 +83,7 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
         authService.NuevoInmueble(Inmueble).then(function (resp) {
             alert("Registro creado con exito!!");
             //chatsignalr.getProxy().showNewPublish('Inmobiliaria', vm.getUserId(), vm.Titulo, vm.Id)
-            chatsignalr.getProxy().sendMessage('Nueva Publicacion!!! Puede votar el Barrio: ' + vm.Barrio, 'Inmobiliaria', vm.getUserId()).done(function () {  
+            chatsignalr.getProxy().sendMessage('Nueva Publicacion Nro ' + vm.Id + ' !!! Puede votar el Barrio: ' + vm.Barrio, 'Inmobiliaria', vm.getUserId()).done(function () {  
             });
         }, function () {
             alert("Registro Duplicado!!");
@@ -148,7 +148,7 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
 
     $rootScope.$on("ReceiveMessage", function (evt,xx) {
         vm.messages.push(xx);
-        
+        vm.getInmuebles();
     })
 
     // #### Trabajar con la vista
@@ -230,12 +230,13 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
         }, function (a) { vm.error = "unauthorized"; });
     }
 
-    vm.cerrarvotacion = function (id, titulo) {
+    vm.cerrarvotacion = function (id, titulo, barrio) {
         inmuebleService.cerrar(id).then(function (resp) {
-            chatsignalr.getProxy().showPublishClosed('Inmobiliaria', vm.getUserId(), titulo, id)
             var a = vm.getInmuebles();
+            alert("Votacion cerrada con exito!!");
+            chatsignalr.getProxy().sendMessage('Votacion Cerrada!!! Pubicacion Nro: ' + id + ' - Barrio: ' + barrio, 'Inmobiliaria', vm.getUserId()).done(function () {
+            });
+            
         }, function (a) { vm.error = "unauthorized"; });
     }
-
-    //var a = vm.getInmuebles();
 })
