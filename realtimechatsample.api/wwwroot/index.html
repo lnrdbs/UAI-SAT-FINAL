@@ -163,10 +163,10 @@
                                 Que opina del Barrio?
                             </div>
                             <div class="col-1">
-                                <div ng-click="vm.votar(x.id, 1)"><img class="img-fluid" src="app/images/si.jpg" width="50" height="45" alt=""> {{x.votosPositivos}} </div>
+                                <div id="voto-{{x.id}}" ng-click="vm.votar(x.id, 1, $index)"><img class="img-fluid" src="app/images/si.jpg" width="50" height="45" alt=""> {{x.votosPositivos}} </div>
                             </div>
                             <div class="col-1">
-                                <img class="img-fluid" src="app/images/no.jpg" width="50" height="45" alt="" ng-click="vm.votar(x.id, 0)"> {{x.votosNegativos}}
+                                <img class="img-fluid" src="app/images/no.jpg" width="50" height="45" alt="" ng-click="vm.votar(x.id, 0, $index)"> {{x.votosNegativos}}
                             </div>
                             <div class="col-1" ng-if="vm.IsAdmin() && x.abierto == '1'">
                                 <img class="img-fluid" src="app/images/cierre.png" width="50" height="45" alt="" ng-click="vm.cerrarvotacion(x.id, x.titulo, x.barrio)">

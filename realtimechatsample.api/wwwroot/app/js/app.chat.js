@@ -82,6 +82,10 @@ app.run(function ($rootScope, $http, chatsignalr, connectedUsers, $q) {
                         $rootScope.$emit("ReceiveMessage", xx);
                     });
 
+                    chatsignalr.getProxy().on('ReceiveVoteMessage', function (xx) {
+
+                        $rootScope.$emit("ReceiveVoteMessage", xx);
+                    });
                   
                     chatsignalr.getProxy().invoke("AllRooms", function (x) { connectedUsers.clear(); });
                   

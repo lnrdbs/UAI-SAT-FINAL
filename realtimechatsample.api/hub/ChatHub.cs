@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using RealtimeSample.Firebase;
+using AuthSample.Application;
 
 namespace RealtimeChatSample.Api.hub
 {
@@ -16,6 +17,14 @@ namespace RealtimeChatSample.Api.hub
             var r = new ChatRoomRepository(room, user, ShowMessage);
             r.PostMessage(msg);
             Clients.Group(room).ReceiveMessage(dto);
+        }
+
+        public void VotoMessage(int index1, int id, string room)
+        {
+            var a = new InmuebleApplication();
+            Inmueble item = a.Get(id).Result;
+            var dto = new { index = index1, id = item.Id , pos = item.VotosPositivos, neg = item.VotosNegativos };
+            Clients.Group(room).ReceiveVoteMessage(dto);
         }
 
         public void AllRooms(string p1="", string p2="")

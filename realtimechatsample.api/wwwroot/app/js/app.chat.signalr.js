@@ -77,7 +77,7 @@ app.factory('connectedUsers', function () {
 
 });
 
-app.factory('backendHubProxy', function ($, ENV, $rootScope) {
+app.factory('backendHubProxy', function ($, ENV, $rootScope, inmuebleService) {
 
         function backendFactory(serverUrl, hubName) {
             var connection = $.hubConnection(ENV.backendServerUrl);
@@ -110,6 +110,9 @@ app.factory('backendHubProxy', function ($, ENV, $rootScope) {
                 },
                 sendMessage: function (a, b, c) {
                     return proxy.invoke("SendMessage", a, b,c);
+                },
+                votoMessage: function (a, b, c) {
+                    return proxy.invoke("VotoMessage", a, b, c);
                 },
                 showNewPublish: function (a, b, c, d) {
                     return proxy.invoke("ShowNewPublish", a, b, c, d);
