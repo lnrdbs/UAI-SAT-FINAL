@@ -111,8 +111,8 @@ app.factory('backendHubProxy', function ($, ENV, $rootScope, inmuebleService) {
                 sendMessage: function (a, b, c) {
                     return proxy.invoke("SendMessage", a, b,c);
                 },
-                votoMessage: function (a, b, c) {
-                    return proxy.invoke("VotoMessage", a, b, c);
+                votoMessage: function (a, b, c, d) {
+                    return proxy.invoke("VotoMessage", a, b, c, d);
                 },
                 showNewPublish: function (a, b, c, d) {
                     return proxy.invoke("ShowNewPublish", a, b, c, d);

@@ -19,11 +19,11 @@ namespace RealtimeChatSample.Api.hub
             Clients.Group(room).ReceiveMessage(dto);
         }
 
-        public void VotoMessage(int index1, int id, string room)
+        public void VotoMessage(int index1, int pos1, int neg1, string room)
         {
-            var a = new InmuebleApplication();
-            Inmueble item = a.Get(id).Result;
-            var dto = new { index = index1, id = item.Id , pos = item.VotosPositivos, neg = item.VotosNegativos };
+            /* var a = new InmuebleApplication();
+            Inmueble item = a.GetById(id); */
+            var dto = new { index = index1, pos = pos1, neg = neg1 }; 
             Clients.Group(room).ReceiveVoteMessage(dto);
         }
 

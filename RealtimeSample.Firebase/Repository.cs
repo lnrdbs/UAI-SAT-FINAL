@@ -112,7 +112,7 @@ namespace RealtimeSample.Firebase
 
         }
 
-        public async Task<bool> Modificar(Inmueble inmueble)
+        public async Task<Inmueble> Modificar(Inmueble inmueble)
         {
             try
             {
@@ -123,9 +123,9 @@ namespace RealtimeSample.Firebase
             }
             catch (Exception)
             {
-                return false;
+                return null;
             }
-            return true;
+            return inmueble;
         }
 
         private async Task<bool> Delete(string id)

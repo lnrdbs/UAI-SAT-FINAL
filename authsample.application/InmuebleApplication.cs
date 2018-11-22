@@ -30,7 +30,7 @@ namespace AuthSample.Application
             {
                 throw;
             }
-            return list.OrderBy(x=>x.Id).ToList();
+            return list.OrderByDescending(x=>x.Id).ToList();
         }
 
         public async Task Crear(Inmueble inmueble)
@@ -43,6 +43,13 @@ namespace AuthSample.Application
             var item = await this.repo.Get(id);
            
             return item;
+        }
+
+        public Inmueble GetById(int id)
+        {
+            var item = this.repo.Get(id);
+
+            return item.Result;
         }
 
         public async Task<bool> Modificar(Inmueble inmueble)

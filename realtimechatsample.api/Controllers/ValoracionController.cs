@@ -35,7 +35,7 @@ namespace AuthSample.Api.Controllers
                 Voto = Convert.ToInt32(voto),
                 Nickname = this.User.Claims.First(i => i.Type == "name").Value
             };
-                return Ok(_repo.Crear(item));
+                return Ok(_repo.Crear(item).Result);
         }
     }
 }

@@ -152,8 +152,9 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
     })
 
     $rootScope.$on("ReceiveVoteMessage", function (evt, xx) {
-        $scope.inmuebleslocal[xx.index].votosPositivos = xx.pos; 
-        $scope.inmuebleslocal[xx.index].votosNositivos = xx.neg; 
+        $scope.inmuebleslocal[xx.index].votosPositivos += xx.pos; 
+        $scope.inmuebleslocal[xx.index].votosNegativos += xx.neg;
+        $scope.inmuebleslocal.push($scope.inmuebleslocal);
     })
 
     // #### Trabajar con la vista
@@ -231,7 +232,10 @@ app.controller('mainController', function ($scope, $timeout, ENV, $uibModal, aut
 
     vm.votar = function (id, voto, index) {
         inmuebleService.votar(id, voto).then(function (resp) {
-            chatsignalr.getProxy().votoMessage(index, id, 'Inmobiliaria').done(function () {
+            var pos = (voto == 1) ? 1 : 0;
+            var neg = (voto == 0) ? 1 : 0;
+           
+            chatsignalr.getProxy().votoMessage(index, pos, neg, 'Inmobiliaria').done(function () {
             });
         }, function (a) { vm.error = "unauthorized"; });
     }

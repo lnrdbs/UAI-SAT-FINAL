@@ -23,23 +23,29 @@ namespace AuthSample.Application
             return result;
         }
 
-        public async Task Crear(Valoracion item)
+        public async Task<Inmueble> Crear(Valoracion item)
         {
-            
-            // voy actualizando en la lista
+            Inmueble obj = new Inmueble();
             repoInmueble = new InmuebleRepository();
             var o = await repoInmueble.Get(item.Id);
-            if(o!=null)
-            {
-                await repo.Crear(item);
 
-                if (item.Voto == 1)
-                    ++o.VotosPositivos;
-                else
-                    ++o.VotosNegativos;
-                var t = await repoInmueble.Modificar(o);
+            var x = await this.Get(item.Id, item.Nickname);
+            if(x==null)
+            {   
+            // voy actualizando en la lista
+                if(o!=null)
+                {
+                    await repo.Crear(item);
+
+                    if (item.Voto == 1)
+                        ++o.VotosPositivos;
+                    else
+                        ++o.VotosNegativos;
+                    obj = await repoInmueble.Modificar(o);
+                }
             }
-            
+            else { throw new Exception("Voto Duplicado"); }
+            return obj;
         }
 
         public async Task<Valoracion> Get(int id, string nickname)
