@@ -14,8 +14,8 @@ namespace RealtimeChatSample.Api.hub
         {
             //ENVIO UN MENSAJE
             var dto = new {User=user, Message = msg };
-            var r = new ChatRoomRepository(room, user, ShowMessage);
-            r.PostMessage(msg);
+            //var r = new ChatRoomRepository(room, user, ShowMessage);
+            //r.PostMessage(msg);
             Clients.Group(room).ReceiveMessage(dto);
         }
 
